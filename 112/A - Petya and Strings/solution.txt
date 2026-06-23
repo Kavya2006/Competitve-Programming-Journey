@@ -1,0 +1,18 @@
+# first python code lets see
+a=input()
+b=input()
+n=len(a)
+a=a.lower()
+b=b.lower()
+ok=0
+for i in range(0,n):
+    if(a[i]<b[i]):
+        print(-1)
+        ok=1
+        break
+    elif(b[i]<a[i]):
+        print(1)
+        ok=1
+        break
+if(ok==0):
+ print(0)
