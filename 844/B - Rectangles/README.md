@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/844/problem/B" target="_blank" rel="noopener noreferrer">844B — Rectangles</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1300 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 844B](https://codeforces.com/contest/844/problem/B) |
+
+## Topics
+`combinatorics` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Rectangles</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You are given <span class="tex-span"><i>n</i> × <i>m</i></span> table. Each cell of the table is colored white or black. Find the number of non-empty sets of cells such that:</p><ol> <li> All cells in a set have the same color. </li><li> Every two cells in a set share row or column. </li></ol></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of input contains integers <span class="tex-span"><i>n</i></span> and <span class="tex-span"><i>m</i></span> (<span class="tex-span">1 ≤ <i>n</i>, <i>m</i> ≤ 50</span>) — the number of rows and the number of columns correspondingly.</p><p>The next <span class="tex-span"><i>n</i></span> lines of input contain descriptions of rows. There are <span class="tex-span"><i>m</i></span> integers, separated by spaces, in each line. The number equals <span class="tex-span">0</span> if the corresponding cell is colored white and equals <span class="tex-span">1</span> if the corresponding cell is colored black.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output single integer  — the number of non-empty sets from the problem description.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id008477839847401744" id="id005315970854766431" class="input-output-copier">Copy</div></div><pre id="id008477839847401744">1 1<br>0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005843655063716657" id="id0020225905540613132" class="input-output-copier">Copy</div></div><pre id="id005843655063716657">1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0011819833533782498" id="id0011057102812003627" class="input-output-copier">Copy</div></div><pre id="id0011819833533782498">2 3<br>1 0 1<br>0 1 0<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id002955881554507154" id="id009374311864991468" class="input-output-copier">Copy</div></div><pre id="id002955881554507154">8<br></pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the second example, there are six one-element sets. Additionally, there are two two-element sets, the first one consists of the first and the third cells of the first row, the second one consists of the first and the third cells of the second row. To sum up, there are <span class="tex-span">8</span> sets.</p></div>
