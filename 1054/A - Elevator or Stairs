@@ -1,17 +1,183 @@
-<h2><a href="https://codeforces.com/contest/1054/problem/A" target="_blank" rel="noopener noreferrer">1054A — Elevator or Stairs?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++17 (GCC 7-32) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1054A](https://codeforces.com/contest/1054/problem/A) |
-
-## Topics
-`implementation`
-
----
-
-## Problem Statement
-
-<div class="header"><div class="title">A. Elevator or Stairs?</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Masha lives in a multi-storey building, where floors are numbered with positive integers. Two floors are called adjacent if their numbers differ by one. Masha decided to visit Egor. Masha lives on the floor $$$x$$$, Egor on the floor $$$y$$$ (not on the same floor with Masha).</p><p>The house has a staircase and an elevator. If Masha uses the stairs, it takes $$$t_1$$$ seconds for her to walk between adjacent floors (in each direction). The elevator passes between adjacent floors (in each way) in $$$t_2$$$ seconds. The elevator moves with doors closed. The elevator spends $$$t_3$$$ seconds to open or close the doors. We can assume that time is not spent on any action except moving between adjacent floors and waiting for the doors to open or close. If Masha uses the elevator, it immediately goes directly to the desired floor.</p><p>Coming out of the apartment on her floor, Masha noticed that the elevator is now on the floor $$$z$$$ and has closed doors. Now she has to choose whether to use the stairs or use the elevator. </p><p>If the time that Masha needs to get to the Egor's floor by the stairs is <span class="tex-font-style-bf">strictly</span> less than the time it will take her using the elevator, then she will use the stairs, otherwise she will choose the elevator.</p><p>Help Mary to understand whether to use the elevator or the stairs.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The only line contains six integers $$$x$$$, $$$y$$$, $$$z$$$, $$$t_1$$$, $$$t_2$$$, $$$t_3$$$ ($$$1 \leq x, y, z, t_1, t_2, t_3 \leq 1000$$$) — the floor Masha is at, the floor Masha wants to get to, the floor the elevator is located on, the time it takes Masha to pass between two floors by stairs, the time it takes the elevator to pass between two floors and the time it takes for the elevator to close or open the doors.</p><p>It is guaranteed that $$$x \ne y$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>If the time it will take to use the elevator is <span class="tex-font-style-bf">not greater</span> than the time it will take to use the stairs, print «<span class="tex-font-style-tt">YES</span>» (without quotes), otherwise print «<span class="tex-font-style-tt">NO</span>> (without quotes).</p><p>You can print each letter in any case (upper or lower).</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id007050100474840029" id="id0006375079867518896" class="input-output-copier">Copy</div></div><pre id="id007050100474840029">5 1 4 4 2 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009364747460443678" id="id0024668405939147997" class="input-output-copier">Copy</div></div><pre id="id009364747460443678">YES</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005429766502192875" id="id009730364376425681" class="input-output-copier">Copy</div></div><pre id="id005429766502192875">1 6 6 2 1 1<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005233947001052351" id="id004035641074233838" class="input-output-copier">Copy</div></div><pre id="id005233947001052351">NO</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0014276423871116273" id="id007635664929312114" class="input-output-copier">Copy</div></div><pre id="id0014276423871116273">4 1 7 4 1 2<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id004023027085092997" id="id00019641743283688617" class="input-output-copier">Copy</div></div><pre id="id004023027085092997">YES</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first example:</p><p>If Masha goes by the stairs, the time she spends is $$$4 \cdot 4 = 16$$$, because she has to go $$$4$$$ times between adjacent floors and each time she spends $$$4$$$ seconds. </p><p>If she chooses the elevator, she will have to wait $$$2$$$ seconds while the elevator leaves the $$$4$$$-th floor and goes to the $$$5$$$-th. After that the doors will be opening for another $$$1$$$ second. Then Masha will enter the elevator, and she will have to wait for $$$1$$$ second for the doors closing. Next, the elevator will spend $$$4 \cdot 2 = 8$$$ seconds going from the $$$5$$$-th floor to the $$$1$$$-st, because the elevator has to pass $$$4$$$ times between adjacent floors and spends $$$2$$$ seconds each time. And finally, it will take another $$$1$$$ second before the doors are open and Masha can come out. </p><p>Thus, all the way by elevator will take $$$2 + 1 + 1 + 8 + 1 = 13$$$ seconds, which is less than $$$16$$$ seconds, so Masha has to choose the elevator.</p><p>In the second example, it is more profitable for Masha to use the stairs, because it will take $$$13$$$ seconds to use the elevator, that is more than the $$$10$$$ seconds it will takes to go by foot.</p><p>In the third example, the time it takes to use the elevator is equal to the time it takes to walk up by the stairs, and is equal to $$$12$$$ seconds. That means Masha will take the elevator.</p></div>
+// to find anything using keyword , use control+f
+#include <bits/stdc++.h>
+using namespace std;
+ 
+const int MOD = 1e9 + 7; // change value oF MOD here if u want something raise to power modulo k
+ 
+// Types
+using ll  = long long;
+using ull = unsigned long long;
+using ld  = long double;
+ 
+// Shortcuts
+#define pb      push_back
+#define all(x)  begin(x), end(x)
+#define rall(x) rbegin(x), rend(x)
+#define sz(x)   (int)((x).size())
+#define endl '
+' 
+ 
+// Common containers
+using vi  = vector<int>;
+using vll = vector<ll>;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+using vpi = vector<pii>;
+ 
+// ------------------------- Utility Functions ------------------------- //
+ 
+ 
+ 
+// ✅ GCD (Greatest Common Divisor)
+ll gcd(ll a, ll b) {
+    if (b == 0)
+        return a;
+    else
+        return gcd(b, a % b);
+}
+ 
+// ✅ HCF (Same as GCD, for readability)
+ll hcf(ll a, ll b) {
+    if (b == 0)
+        return a;
+    else
+        return hcf(b, a % b);
+}
+ 
+// ✅ LCM (Least Common Multiple)
+ll lcm(ll a, ll b) {
+    ll g = gcd(a, b);
+    ll ans = (a / g) * b;
+    return ans;
+}
+ 
+// ✅ Fast Power (modular exponentiation)
+ll power(ll a, ll b, ll mod = MOD) {      // we can change value up there MOD 
+    ll res = 1;
+    while (b > 0) {
+        if (b % 2 == 1)
+            res = (res * a) % mod;
+        a = (a * a) % mod;
+        b = b / 2;
+    }
+    return res;
+}
+ 
+ll power_ll(ll a, ll b) {          // if we dont want to take the mod of result 
+    ll res = 1;
+    while (b > 0) {
+        if (b & 1) res *= a;
+        a *= a;
+        b >>= 1;
+    }
+    return res;
+}
+ll isqrt(ll n) { // to get square root precisely
+    ll x = sqrtl((long double)n);
+    while ((x + 1) * (x + 1) <= n) x++;
+    while (x * x > n) x--;
+    return x;
+}
+ 
+// ✅ Check if a number is prime
+bool isPrime(ll n) {
+    if (n <= 1)
+        return false;
+    if (n <= 3)
+        return true;
+    if (n % 2 == 0 || n % 3 == 0)
+        return false;
+    
+    for (ll i = 5; i * i <= n; i += 6) {
+        if (n % i == 0 || n % (i + 2) == 0)
+            return false;
+    }
+    return true;
+}
+ 
+// ✅ nCr (Combination n choose r) using Fermat’s Little Theorem (for large n under mod)
+ll nCr_mod(ll n, ll r, ll mod = MOD) {
+    if (r > n)
+        return 0;
+ 
+    vector<ll> fact(n + 1, 1);
+    for (ll i = 2; i <= n; i++)
+        fact[i] = (fact[i - 1] * i) % mod;
+ 
+    ll numerator = fact[n];
+    ll denominator = (fact[r] * fact[n - r]) % mod;
+ 
+    ll result = (numerator * power(denominator, mod - 2, mod)) % mod;
+    return result;
+}
+ 
+// ✅ Simple nCr (without mod, for small numbers)
+ll nCr_simple(ll n, ll r) {
+    if (r > n)
+        return 0;
+    if (r == 0 || r == n)
+        return 1;
+ 
+    r = min(r, n - r);
+    ll res = 1;
+    for (ll i = 1; i <= r; i++) {
+        res = res * (n - r + i);
+        res = res / i;
+    }
+    return res;
+}
+ 
+ 
+// ---------------------------------------------------------
+// Check if string 's' is a substring of string 'x'
+bool isSub(const string &x, const string &s) {
+    return x.find(s) != string::npos;  
+    
+}
+ 
+bool compare(int a1, int a2) {
+    if (a1 > a2)                   // for descending ; 
+        return true; // return true means a1 should appear before a2
+ 
+    else
+        return false;
+}
+bool Compare(pair<ll,ll>p1 , pair<ll,ll>p2 ){
+    return p1.first>p2.first;
+}
+bool CompAre (pair<ll,ll>p1 , pair<ll,ll>p2 ){
+    return p1.second<p2.second;
+}
+void Solve(){
+ ll x,y,z,t1,t2,t3;
+ cin>>x>>y>>z>>t1>>t2>>t3;
+ if( abs(y-x)*t2+abs(z-x)*t2+3*t3<=abs(y-x)*t1           ){
+    cout<<"YES
+";
+ }
+ else{
+    cout<<"NO
+";
+ }
+}
+ 
+int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    
+   
+    ll t=1; // cin>>t;
+  while(t--){
+ Solve();
+ }
+ 
+ 
+return 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
