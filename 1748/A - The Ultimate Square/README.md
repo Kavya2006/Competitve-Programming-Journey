@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1748/problem/A" target="_blank" rel="noopener noreferrer">1748A — The Ultimate Square</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1748A](https://codeforces.com/contest/1748/problem/A) |
+
+## Topics
+`math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. The Ultimate Square</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You have $$$n$$$ rectangular wooden blocks, which are numbered from $$$1$$$ to $$$n$$$. The $$$i$$$-th block is $$$1$$$ unit high and $$$\lceil \frac{i}{2} \rceil$$$ units long.</p><p>Here, $$$\lceil \frac{x}{2} \rceil$$$ denotes the result of division of $$$x$$$ by $$$2$$$, rounded <span class="tex-font-style-bf">up</span>. For example, $$$\lceil \frac{4}{2} \rceil = 2$$$ and $$$\lceil \frac{5}{2} \rceil = \lceil 2.5 \rceil = 3$$$.</p><p>For example, if $$$n=5$$$, then the blocks have the following sizes: $$$1 \times 1$$$, $$$1 \times 1$$$, $$$1 \times 2$$$, $$$1 \times 2$$$, $$$1 \times 3$$$.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/2d0a151f8cff3d8083496da4051fbc09f82c68a1.png" style="zoom: 100.0%;max-width: 100.0%;max-height: 100.0%;"> <span class="tex-font-size-small">The available blocks for $$$n=5$$$</span> </center><p>Find the maximum possible side length of a square you can create using these blocks, <span class="tex-font-style-bf">without rotating any of them</span>. Note that you don't have to use all of the blocks.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/910a5e67208154086936335d0cb51f17a3403fd8.png" style="zoom: 100.0%;max-width: 100.0%;max-height: 100.0%;"> <span class="tex-font-size-small">One of the ways to create $$$3 \times 3$$$ square using blocks $$$1$$$ through $$$5$$$</span> </center></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases.</p><p>The first line of each test case contains a single integer $$$n$$$ ($$$1 \le n \le 10^9$$$) — the number of blocks.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the maximum possible side length of a square you can create.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0022701434292971767" id="id009608041248343775" class="input-output-copier">Copy</div></div><pre id="id0022701434292971767"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">2</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-odd test-example-line-3">197654321</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001369877629192222" id="id0025248219659351145" class="input-output-copier">Copy</div></div><pre id="id001369877629192222">1
+3
+98827161
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, you can create a $$$1 \times 1$$$ square using only one of the blocks.</p><p>In the second test case, one of the possible ways to create a $$$3 \times 3$$$ square is shown in the statement. It is impossible to create a $$$4 \times 4$$$ or larger square, so the answer is $$$3$$$.</p></div>
