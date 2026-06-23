@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/34/problem/A" target="_blank" rel="noopener noreferrer">34A — Reconnaissance 2</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 34A](https://codeforces.com/contest/34/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Reconnaissance 2</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p><span class="tex-span"><i>n</i></span> soldiers stand in a circle. For each soldier, his height <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub></span> is known. A reconnaissance unit can be made of such two <span class="tex-font-style-bf">neighbouring</span> soldiers, whose height difference is minimal, i.e. <span class="tex-span">|<i>a</i><sub class="lower-index"><i>i</i></sub> - <i>a</i><sub class="lower-index"><i>j</i></sub>|</span> is minimal. So each of them will be less noticeable with the other. Output any pair of soldiers that can form a reconnaissance unit.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">2 ≤ <i>n</i> ≤ 100</span>) — the number of soldiers. Then follow the heights of the soldiers in their order in the circle — <span class="tex-span"><i>n</i></span> space-separated integers <span class="tex-span"><i>a</i><sub class="lower-index">1</sub>, <i>a</i><sub class="lower-index">2</sub>, ..., <i>a</i><sub class="lower-index"><i>n</i></sub></span> (<span class="tex-span">1 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 1000</span>). The soldier heights are given in a clockwise or counterclockwise direction.</p></div><div class="output-specification"><div class="section-title">Output</div><p>Output two integers — indices of <span class="tex-font-style-bf">neighbouring</span> soldiers, who should form a reconnaissance unit. If there are many optimal solutions, output any of them. Remember that the soldiers stand in a circle.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0047631966054193786" id="id007956909539844172" class="input-output-copier">Copy</div></div><pre id="id0047631966054193786">5<br>10 12 13 15 10<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005182004379784202" id="id0009653218172081912" class="input-output-copier">Copy</div></div><pre id="id005182004379784202">5 1<br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009195713371094625" id="id0022761007936552724" class="input-output-copier">Copy</div></div><pre id="id009195713371094625">4<br>10 20 30 40<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id001051442827647634" id="id002235432084053457" class="input-output-copier">Copy</div></div><pre id="id001051442827647634">1 2<br></pre></div></div></div>
