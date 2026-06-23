@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/1772/problem/B" target="_blank" rel="noopener noreferrer">1772B — Matrix Rotation</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1772B](https://codeforces.com/contest/1772/problem/B) |
+
+## Topics
+`brute force` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Matrix Rotation</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>You have a matrix $$$2 \times 2$$$ filled with <span class="tex-font-style-bf">distinct</span> integers. You want your matrix to become beautiful. The matrix is beautiful if the following two conditions are satisfied:</p><ul> <li> in each row, the first element is smaller than the second element; </li><li> in each column, the first element is smaller than the second element. </li></ul><center> <img class="tex-graphics" src="https://espresso.codeforces.com/7ef05d172cb13a699ea1f85f16e46f495ccff3fa.png" style="zoom: 75.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>You can perform the following operation on the matrix any number of times: rotate it clockwise by $$$90$$$ degrees, so the top left element shifts to the top right cell, the top right element shifts to the bottom right cell, and so on:</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/f31c88dd8d6a0105daedf5a61349bf55d6bbc6fd.png" style="zoom: 75.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>Determine if it is possible to make the matrix beautiful by applying zero or more operations.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases.</p><p>Each test case consists of two lines. Each of those lines contains two integers — the elements of the corresponding row of the matrix. In each matrix, all four elements are distinct integers from $$$1$$$ to $$$100$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print <span class="tex-font-style-tt">YES</span> if the matrix can become beautiful, or <span class="tex-font-style-tt">NO</span> otherwise. You may print each letter in any case (<span class="tex-font-style-tt">YES</span>, <span class="tex-font-style-tt">yes</span>, <span class="tex-font-style-tt">Yes</span> will all be recognized as positive answer, <span class="tex-font-style-tt">NO</span>, <span class="tex-font-style-tt">no</span> and <span class="tex-font-style-tt">nO</span> will all be recognized as negative answer).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005719328290970753" id="id006707412405363798" class="input-output-copier">Copy</div></div><pre id="id005719328290970753"><div class="test-example-line test-example-line-even test-example-line-0">6</div><div class="test-example-line test-example-line-odd test-example-line-1">1 3</div><div class="test-example-line test-example-line-odd test-example-line-1">5 7</div><div class="test-example-line test-example-line-even test-example-line-2">8 10</div><div class="test-example-line test-example-line-even test-example-line-2">3 4</div><div class="test-example-line test-example-line-odd test-example-line-3">8 10</div><div class="test-example-line test-example-line-odd test-example-line-3">4 3</div><div class="test-example-line test-example-line-even test-example-line-4">6 1</div><div class="test-example-line test-example-line-even test-example-line-4">9 2</div><div class="test-example-line test-example-line-odd test-example-line-5">7 5</div><div class="test-example-line test-example-line-odd test-example-line-5">4 2</div><div class="test-example-line test-example-line-even test-example-line-6">1 2</div><div class="test-example-line test-example-line-even test-example-line-6">4 3</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003992534964378748" id="id0037304692575634946" class="input-output-copier">Copy</div></div><pre id="id003992534964378748">YES
+YES
+NO
+YES
+YES
+NO
+</pre></div></div></div>
