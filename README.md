@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 646 | 33 |
+| 647 | 33 |
 
 ---
 
@@ -35,12 +35,12 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (201)
 - [interactive](#interactive) (3)
-- [math](#math) (308)
-- [number theory](#number-theory) (65)
+- [math](#math) (309)
+- [number theory](#number-theory) (66)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
-- [sortings](#sortings) (71)
+- [sortings](#sortings) (72)
 - [strings](#strings) (36)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (10)
@@ -1484,6 +1484,7 @@
 | 2230C | [Arrange the Numbers in a Circle](https://codeforces.com/contest/2230/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2230/C%20-%20Arrange%20the%20Numbers%20in%20a%20Circle/solution.cpp) |
 | 2232B | [Cake Leveling](https://codeforces.com/contest/2232/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2232/B%20-%20Cake%20Leveling/solution.cpp) |
 | 2232C2 | [Seating Arrangement (Hard Version)](https://codeforces.com/contest/2232/problem/C2) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2232/C2%20-%20Seating%20Arrangement%20(Hard%20Version)/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 
 ### number theory
 
@@ -1554,6 +1555,7 @@
 | 2217C | [Grid Covering](https://codeforces.com/contest/2217/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2217/C%20-%20Grid%20Covering/solution.cpp) |
 | 2218D | [The 67th OEIS Problem](https://codeforces.com/contest/2218/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2218/D%20-%20The%2067th%20OEIS%20Problem/solution.cpp) |
 | 2226B | [Everything Everywhere](https://codeforces.com/contest/2226/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2226/B%20-%20Everything%20Everywhere/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 
 ### probabilities
 
@@ -1655,6 +1657,7 @@
 | 2208B | [Cyclists](https://codeforces.com/contest/2208/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2208/B%20-%20Cyclists/solution.cpp) |
 | 2224B | [Zhily and Mex and Max](https://codeforces.com/contest/2224/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2224/B%20-%20Zhily%20and%20Mex%20and%20Max/solution.cpp) |
 | 2232A | [Convergence](https://codeforces.com/contest/2232/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2232/A%20-%20Convergence/solution.cpp) |
+| 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 
 ### strings
 
