@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 15 | 11 |
+| 16 | 14 |
 
 ---
 
@@ -14,11 +14,14 @@
 
 - [brute force](#brute-force) (5)
 - [constructive algorithms](#constructive-algorithms) (2)
+- [data structures](#data-structures) (1)
+- [divide and conquer](#divide-and-conquer) (1)
+- [dp](#dp) (1)
 - [games](#games) (1)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (3)
+- [greedy](#greedy) (4)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (4)
+- [implementation](#implementation) (5)
 - [math](#math) (8)
 - [number theory](#number-theory) (1)
 - [sortings](#sortings) (1)
@@ -43,6 +46,24 @@
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.cpp) |
 | 2156A | [Pizza Time](https://codeforces.com/contest/2156/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2156/A%20-%20Pizza%20Time/solution.cpp) |
 
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
+
+### divide and conquer
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
+
 ### games
 
 | # | Problem | Difficulty | Solution |
@@ -59,6 +80,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 2156A | [Pizza Time](https://codeforces.com/contest/2156/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2156/A%20-%20Pizza%20Time/solution.cpp) |
 | 2162A | [Beautiful Average](https://codeforces.com/contest/2162/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2162/A%20-%20Beautiful%20Average/solution.cpp) |
@@ -74,6 +96,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.cpp) |
+| 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1904/A%20-%20Forked!/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2155A | [El fucho](https://codeforces.com/contest/2155/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2155/A%20-%20El%20fucho/solution.cpp) |
