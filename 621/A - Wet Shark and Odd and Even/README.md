@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/621/problem/A" target="_blank" rel="noopener noreferrer">621A — Wet Shark and Odd and Even</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 621A](https://codeforces.com/contest/621/problem/A) |
+
+## Topics
+`implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Wet Shark and Odd and Even</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" style="font-weight: bold"><div class="property-title">input</div>stdin</div><div class="output-file output-standard" style="font-weight: bold"><div class="property-title">output</div>stdout</div></div><div><p>Today, Wet Shark is given <span class="tex-span"><i>n</i></span> integers. Using any of these integers no more than once, Wet Shark wants to get maximum possible even (divisible by <span class="tex-span">2</span>) sum. Please, calculate this value for Wet Shark. </p><p>Note, that if Wet Shark uses no integers from the <span class="tex-span"><i>n</i></span> integers, the sum is an even integer <span class="tex-span">0</span>.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line of the input contains one integer, <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 100 000</span>). The next line contains <span class="tex-span"><i>n</i></span> space separated integers given to Wet Shark. Each of these integers is in range from <span class="tex-span">1</span> to <span class="tex-span">10<sup class="upper-index">9</sup></span>, inclusive. </p></div><div class="output-specification"><div class="section-title">Output</div><p>Print the maximum possible even sum that can be obtained if we use some of the given integers. </p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id001604906090018412" id="id003685800704002121" class="input-output-copier">Copy</div></div><pre id="id001604906090018412">3<br>1 2 3<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009095510295972217" id="id00733374912629043" class="input-output-copier">Copy</div></div><pre id="id009095510295972217">6</pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006802464850449311" id="id003125731526499933" class="input-output-copier">Copy</div></div><pre id="id006802464850449311">5<br>999999999 999999999 999999999 999999999 999999999<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00819475375176163" id="id004158627804474335" class="input-output-copier">Copy</div></div><pre id="id00819475375176163">3999999996</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first sample, we can simply take all three integers for a total sum of <span class="tex-span">6</span>.</p><p>In the second sample Wet Shark should take any four out of five integers <span class="tex-span">999 999 999</span>.</p></div>
