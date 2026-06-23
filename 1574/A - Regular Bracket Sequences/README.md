@@ -1,0 +1,28 @@
+<h2><a href="https://codeforces.com/contest/1574/problem/A" target="_blank" rel="noopener noreferrer">1574A — Regular Bracket Sequences</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1574A](https://codeforces.com/contest/1574/problem/A) |
+
+## Topics
+`constructive algorithms`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">A. Regular Bracket Sequences</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A bracket sequence is a string containing only characters "<span class="tex-font-style-tt">(</span>" and "<span class="tex-font-style-tt">)</span>". A regular bracket sequence is a bracket sequence that can be transformed into a correct arithmetic expression by inserting characters "<span class="tex-font-style-tt">1</span>" and "<span class="tex-font-style-tt">+</span>" between the original characters of the sequence. For example, bracket sequences "<span class="tex-font-style-tt">()()</span>" and "<span class="tex-font-style-tt">(())</span>" are regular (the resulting expressions are: "<span class="tex-font-style-tt">(1)+(1)</span>" and "<span class="tex-font-style-tt">((1+1)+1)</span>"), and "<span class="tex-font-style-tt">)(</span>", "<span class="tex-font-style-tt">(</span>" and "<span class="tex-font-style-tt">)</span>" are not.</p><p>You are given an integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-1"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-2">n</span></span></span>$n$. Your goal is to construct and print <span class="tex-font-style-bf">exactly <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-3"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-4">n</span></span></span>$n$</span> different regular bracket sequences of length <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-5"><span class="MJXp-mn" id="MJXp-Span-6">2</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-7">n</span></span></span>$2n$.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains one integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-8"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-9">t</span></span></span>$t$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-10"><span class="MJXp-mn" id="MJXp-Span-11">1</span><span class="MJXp-mo" id="MJXp-Span-12" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-13">t</span><span class="MJXp-mo" id="MJXp-Span-14" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-15">50</span></span></span>$1 \le t \le 50$) — the number of test cases.</p><p>Each test case consists of one line containing one integer <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-16"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-17">n</span></span></span>$n$ (<span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-18"><span class="MJXp-mn" id="MJXp-Span-19">1</span><span class="MJXp-mo" id="MJXp-Span-20" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-21">n</span><span class="MJXp-mo" id="MJXp-Span-22" style="margin-left: 0.333em; margin-right: 0.333em;">≤</span><span class="MJXp-mn" id="MJXp-Span-23">50</span></span></span>$1 \le n \le 50$).</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-24"><span class="MJXp-mi MJXp-italic" id="MJXp-Span-25">n</span></span></span>$n$ lines, each containing a regular bracket sequence of length <span class="tex-font-style-bf">exactly <span class="MathJax_Preview" style="color: inherit;"><span class="MJXp-math" id="MJXp-Span-26"><span class="MJXp-mn" id="MJXp-Span-27">2</span><span class="MJXp-mi MJXp-italic" id="MJXp-Span-28">n</span></span></span>$2n$</span>. All bracket sequences you output for a testcase should be different (though they may repeat in different test cases). If there are multiple answers, print any of them. It can be shown that it's always possible.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id009308140545397665" id="id00942236280047278" class="input-output-copier">Copy</div></div><pre id="id009308140545397665">3
+3
+1
+3
+</pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0041254995380422577" id="id0023151429075268393" class="input-output-copier">Copy</div></div><pre id="id0041254995380422577">()()()
+((()))
+(()())
+()
+((()))
+(())()
+()(())
+</pre></div></div></div>
