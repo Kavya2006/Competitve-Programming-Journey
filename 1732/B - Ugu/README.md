@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/1732/problem/B" target="_blank" rel="noopener noreferrer">1732B — Ugu</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1732B](https://codeforces.com/contest/1732/problem/B) |
+
+## Topics
+`brute force` `dp` `greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Ugu</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A binary string is a string consisting only of the characters <span class="tex-font-style-tt">0</span> and <span class="tex-font-style-tt">1</span>. You are given a binary string $$$s_1 s_2 \ldots s_n$$$. It is necessary to make this string non-decreasing in the least number of operations. In other words, each character should be not less than the previous. In one operation, you can do the following:</p><ul><li> Select an arbitrary index $$$1 \leq i \leq n$$$ in the string;</li><li> For all $$$j \geq i$$$, change the value in the $$$j$$$-th position to the opposite, that is, if $$$s_j = 1$$$, then make $$$s_j = 0$$$, and vice versa.</li></ul><p>What is the minimum number of operations needed to make the string non-decreasing?</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test consists of multiple test cases. The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of test cases. The description of test cases follows.</p><p>The first line of each test cases a single integer $$$n$$$ ($$$1 \leq n \leq 10^5$$$) — the length of the string.</p><p>The second line of each test case contains a binary string $$$s$$$ of length $$$n$$$.</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, output a single integer — the minimum number of operations that are needed to make the string non-decreasing.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id005968907813964741" id="id006995954525842227" class="input-output-copier">Copy</div></div><pre id="id005968907813964741"><div class="test-example-line test-example-line-even test-example-line-0">8</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-even test-example-line-2">10</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">101</div><div class="test-example-line test-example-line-even test-example-line-4">4</div><div class="test-example-line test-example-line-even test-example-line-4">1100</div><div class="test-example-line test-example-line-odd test-example-line-5">5</div><div class="test-example-line test-example-line-odd test-example-line-5">11001</div><div class="test-example-line test-example-line-even test-example-line-6">6</div><div class="test-example-line test-example-line-even test-example-line-6">100010</div><div class="test-example-line test-example-line-odd test-example-line-7">10</div><div class="test-example-line test-example-line-odd test-example-line-7">0000110000</div><div class="test-example-line test-example-line-even test-example-line-8">7</div><div class="test-example-line test-example-line-even test-example-line-8">0101010</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id00997373813314053" id="id0030647480315755626" class="input-output-copier">Copy</div></div><pre id="id00997373813314053">0
+1
+2
+1
+2
+3
+1
+5
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In the first test case, the string is already non-decreasing.</p><p>In the second test case, you can select $$$i = 1$$$ and then $$$s = \mathtt{01}$$$.</p><p>In the third test case, you can select $$$i = 1$$$ and get $$$s = \mathtt{010}$$$, and then select $$$i = 2$$$. As a result, we get $$$s = \mathtt{001}$$$, that is, a non-decreasing string.</p><p>In the sixth test case, you can select $$$i = 5$$$ at the first iteration and get $$$s = \mathtt{100001}$$$. Then choose $$$i = 2$$$, then $$$s = \mathtt{111110}$$$. Then we select $$$i = 1$$$, getting the non-decreasing string $$$s = \mathtt{000001}$$$.</p></div>
