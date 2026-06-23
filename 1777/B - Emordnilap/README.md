@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1777/problem/B" target="_blank" rel="noopener noreferrer">1777B — Emordnilap</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 900 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1777B](https://codeforces.com/contest/1777/problem/B) |
+
+## Topics
+`combinatorics` `greedy` `math`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Emordnilap</div><div class="time-limit"><div class="property-title">time limit per test</div>1 second</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A permutation of length $$$n$$$ is an array consisting of $$$n$$$ distinct integers from $$$1$$$ to $$$n$$$ in arbitrary order. For example, $$$[2,3,1,5,4]$$$ is a permutation, but $$$[1,2,2]$$$ is not a permutation ($$$2$$$ appears twice in the array), and $$$[1,3,4]$$$ is also not a permutation ($$$n=3$$$ but there is $$$4$$$ in the array). There are $$$n! = n \cdot (n-1) \cdot (n - 2) \cdot \ldots \cdot 1$$$ different permutations of length $$$n$$$.</p><p>Given a permutation $$$p$$$ of $$$n$$$ numbers, we create an array $$$a$$$ consisting of $$$2n$$$ numbers, which is equal to $$$p$$$ concatenated with its reverse. We then define the beauty of $$$p$$$ as the number of inversions in $$$a$$$.</p><p>The number of inversions in the array $$$a$$$ is the number of pairs of indices $$$i$$$, $$$j$$$ such that $$$i  \lt  j$$$ and $$$a_i  \gt  a_j$$$.</p><p>For example, for permutation $$$p = [1, 2]$$$, $$$a$$$ would be $$$[1, 2, 2, 1]$$$. The inversions in $$$a$$$ are $$$(2, 4)$$$ and $$$(3, 4)$$$ (assuming 1-based indexing). Hence, the beauty of $$$p$$$ is $$$2$$$.</p><p>Your task is to find the sum of beauties of all $$$n!$$$ permutations of size $$$n$$$. Print the remainder we get when dividing this value by $$$1\,000\,000\,007$$$ ($$$10^9 + 7$$$).</p></div><div class="input-specification"><div class="section-title">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^5$$$). The description of the test cases follows.</p><p>Each test case has only one line — the integer $$$n$$$ ($$$1 \leq n \leq 10^5$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$10^5$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>For each test case, print one integer — the sum of beauties of all permutations of size $$$n$$$ modulo $$$1\,000\,000\,007$$$ ($$$10^9 + 7$$$).</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0024610896675530014" id="id0012031437642534926" class="input-output-copier">Copy</div></div><pre id="id0024610896675530014"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">1</div><div class="test-example-line test-example-line-even test-example-line-2">2</div><div class="test-example-line test-example-line-odd test-example-line-3">100</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id0018930082847208585" id="id0010256434625588684" class="input-output-copier">Copy</div></div><pre id="id0018930082847208585">0
+4
+389456655
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>For the first test case of the example, $$$p = [1]$$$ is the only permutation. $$$a = [1, 1]$$$ has $$$0$$$ inversions.</p><p>For the second test case of the example, the permutations are $$$[1, 2]$$$ and $$$[2, 1]$$$. Their respective $$$a$$$ arrays are $$$[1, 2, 2, 1]$$$ and $$$[2, 1, 1, 2]$$$, both of which have $$$2$$$ inversions.</p></div>
