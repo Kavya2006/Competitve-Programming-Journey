@@ -1,0 +1,17 @@
+<h2><a href="https://codeforces.com/contest/538/problem/B" target="_blank" rel="noopener noreferrer">538B — Quasi Binary</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 538B](https://codeforces.com/contest/538/problem/B) |
+
+## Topics
+`constructive algorithms` `dp` `greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">B. Quasi Binary</div><div class="time-limit"><div class="property-title">time limit per test</div>2 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>256 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>A number is called <span class="tex-font-style-it">quasibinary</span> if its decimal representation contains only digits 0 or 1. For example, numbers 0, 1, 101, 110011 — are quasibinary and numbers 2, 12, 900 are not.</p><p>You are given a positive integer <span class="tex-span"><i>n</i></span>. Represent it as a sum of minimum number of quasibinary numbers.</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains a single integer <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 10<sup class="upper-index">6</sup></span>).</p></div><div class="output-specification"><div class="section-title">Output</div><p>In the first line print a single integer <span class="tex-span"><i>k</i></span> — the minimum number of numbers in the representation of number <span class="tex-span"><i>n</i></span> as a sum of quasibinary numbers.</p><p>In the second line print <span class="tex-span"><i>k</i></span> numbers — the elements of the sum. All these numbers should be quasibinary according to the definition above, their sum should equal <span class="tex-span"><i>n</i></span>. Do not have to print the leading zeroes in the numbers. The order of numbers doesn't matter. If there are multiple possible representations, you are allowed to print any of them.</p></div><div class="sample-tests"><div class="section-title">Examples</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0011592861541312927" id="id008156989103194233" class="input-output-copier">Copy</div></div><pre id="id0011592861541312927">9<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id003279400304021842" id="id008136465036800085" class="input-output-copier">Copy</div></div><pre id="id003279400304021842">9<br>1 1 1 1 1 1 1 1 1 <br></pre></div><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id006320033877806591" id="id008563913042771096" class="input-output-copier">Copy</div></div><pre id="id006320033877806591">32<br></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id005069823528897548" id="id00024589136127001865" class="input-output-copier">Copy</div></div><pre id="id005069823528897548">3<br>10 11 11 <br></pre></div></div></div>
