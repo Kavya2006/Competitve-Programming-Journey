@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 653 | 33 |
+| 654 | 33 |
 
 ---
 
@@ -18,7 +18,7 @@
 - [bitmasks](#bitmasks) (27)
 - [brute force](#brute-force) (125)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (34)
+- [combinatorics](#combinatorics) (35)
 - [constructive algorithms](#constructive-algorithms) (131)
 - [data structures](#data-structures) (36)
 - [dfs and similar](#dfs-and-similar) (22)
@@ -35,8 +35,8 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (203)
 - [interactive](#interactive) (3)
-- [math](#math) (310)
-- [number theory](#number-theory) (66)
+- [math](#math) (311)
+- [number theory](#number-theory) (67)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
@@ -323,6 +323,7 @@
 | 1843C | [Sum in Binary Tree](https://codeforces.com/contest/1843/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1843/C%20-%20Sum%20in%20Binary%20Tree/solution.cpp) |
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1862D | [Ice Cream Balls](https://codeforces.com/contest/1862/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1862/D%20-%20Ice%20Cream%20Balls/solution.cpp) |
+| 1866B | [Battling with Numbers](https://codeforces.com/contest/1866/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1866/B%20-%20Battling%20with%20Numbers/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 | 1985E | [Secret Box](https://codeforces.com/contest/1985/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1985/E%20-%20Secret%20Box/solution.cpp) |
 | 2108A | [Permutation Warm-Up](https://codeforces.com/contest/2108/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2108/A%20-%20Permutation%20Warm-Up/solution.cpp) |
@@ -1360,6 +1361,7 @@
 | 1861A | [Prime Deletion](https://codeforces.com/contest/1861/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1861/A%20-%20Prime%20Deletion/solution.cpp) |
 | 1862D | [Ice Cream Balls](https://codeforces.com/contest/1862/problem/D) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1862/D%20-%20Ice%20Cream%20Balls/solution.cpp) |
 | 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.cpp) |
+| 1866B | [Battling with Numbers](https://codeforces.com/contest/1866/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1866/B%20-%20Battling%20with%20Numbers/solution.cpp) |
 | 1869B | [2D Traveling](https://codeforces.com/contest/1869/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1869/B%20-%202D%20Traveling/solution.cpp) |
 | 1873B | [Good Kid](https://codeforces.com/contest/1873/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1873/B%20-%20Good%20Kid/solution.cpp) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1873/C%20-%20Target%20Practice/solution.cpp) |
@@ -1546,6 +1548,7 @@
 | 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.cpp) |
 | 1858C | [Yet Another Permutation Problem](https://codeforces.com/contest/1858/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1858/C%20-%20Yet%20Another%20Permutation%20Problem/solution.cpp) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.cpp) |
+| 1866B | [Battling with Numbers](https://codeforces.com/contest/1866/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1866/B%20-%20Battling%20with%20Numbers/solution.cpp) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.cpp) |
 | 1916B | [Two Divisors](https://codeforces.com/contest/1916/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1916/B%20-%20Two%20Divisors/solution.cpp) |
 | 1932B | [Chaya Calendar](https://codeforces.com/contest/1932/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1932/B%20-%20Chaya%20Calendar/solution.cpp) |
