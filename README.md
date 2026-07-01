@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 681 | 33 |
+| 682 | 33 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (37)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
-- [dp](#dp) (69)
+- [dp](#dp) (70)
 - [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (271)
+- [greedy](#greedy) (272)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (205)
 - [interactive](#interactive) (3)
@@ -596,6 +596,7 @@
 | 1512G | [Short Task](https://codeforces.com/contest/1512/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1512/G%20-%20Short%20Task/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
+| 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
 | 1676G | [White-Black Balanced Subtrees](https://codeforces.com/contest/1676/problem/G) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1676/G%20-%20White-Black%20Balanced%20Subtrees/solution.cpp) |
 | 1732B | [Ugu](https://codeforces.com/contest/1732/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1732/B%20-%20Ugu/solution.cpp) |
 | 1743C | [Save the Magazines](https://codeforces.com/contest/1743/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1743/C%20-%20Save%20the%20Magazines/solution.cpp) |
@@ -784,6 +785,7 @@
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
+| 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
 | 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.cpp) |
