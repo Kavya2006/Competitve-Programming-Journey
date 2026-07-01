@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 682 | 33 |
+| 683 | 33 |
 
 ---
 
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (205)
 - [interactive](#interactive) (3)
-- [math](#math) (323)
+- [math](#math) (324)
 - [number theory](#number-theory) (73)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -1319,6 +1319,7 @@
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.cpp) |
 | 1594E1 | [Rubik's Cube Coloring (easy version)](https://codeforces.com/contest/1594/problem/E1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1594/E1%20-%20Rubik's%20Cube%20Coloring%20(easy%20version)/solution.cpp) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
+| 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
