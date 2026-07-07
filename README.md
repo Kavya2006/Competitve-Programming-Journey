@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 689 | 33 |
+| 690 | 33 |
 
 ---
 
@@ -31,9 +31,9 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (276)
+- [greedy](#greedy) (277)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (207)
+- [implementation](#implementation) (208)
 - [interactive](#interactive) (3)
 - [math](#math) (325)
 - [number theory](#number-theory) (73)
@@ -856,6 +856,7 @@
 | 1825B | [LuoTianyi and the Table](https://codeforces.com/contest/1825/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1825/B%20-%20LuoTianyi%20and%20the%20Table/solution.cpp) |
 | 1829C | [Mr. Perfectly Fine](https://codeforces.com/contest/1829/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1829/C%20-%20Mr.%20Perfectly%20Fine/solution.cpp) |
 | 1831B | [Array merging](https://codeforces.com/contest/1831/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1831/B%20-%20Array%20merging/solution.cpp) |
+| 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
 | 1833C | [Vlad Building Beautiful Array](https://codeforces.com/contest/1833/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1833/C%20-%20Vlad%20Building%20Beautiful%20Array/solution.cpp) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1834/A%20-%20Unit%20Array/solution.cpp) |
 | 1834B | [Maximum Strength](https://codeforces.com/contest/1834/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1834/B%20-%20Maximum%20Strength/solution.cpp) |
@@ -1160,6 +1161,7 @@
 | 1829C | [Mr. Perfectly Fine](https://codeforces.com/contest/1829/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1829/C%20-%20Mr.%20Perfectly%20Fine/solution.cpp) |
 | 1829D | [Gold Rush](https://codeforces.com/contest/1829/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1829/D%20-%20Gold%20Rush/solution.cpp) |
 | 1829E | [The Lakes](https://codeforces.com/contest/1829/problem/E) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1829/E%20-%20The%20Lakes/solution.cpp) |
+| 1832C | [Contrast Value](https://codeforces.com/contest/1832/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1832/C%20-%20Contrast%20Value/solution.cpp) |
 | 1839A | [The Good Array](https://codeforces.com/contest/1839/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1839/A%20-%20The%20Good%20Array/solution.cpp) |
 | 1840A | [Cipher Shifer](https://codeforces.com/contest/1840/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1840/A%20-%20Cipher%20Shifer/solution.cpp) |
 | 1841B | [Keep it Beautiful](https://codeforces.com/contest/1841/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1841/B%20-%20Keep%20it%20Beautiful/solution.cpp) |
