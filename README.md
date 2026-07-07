@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 687 | 33 |
+| 688 | 33 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (129)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (38)
-- [constructive algorithms](#constructive-algorithms) (134)
+- [constructive algorithms](#constructive-algorithms) (135)
 - [data structures](#data-structures) (38)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (274)
+- [greedy](#greedy) (275)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (206)
 - [interactive](#interactive) (3)
@@ -411,6 +411,7 @@
 | 1794B | [Not Dividing](https://codeforces.com/contest/1794/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1794/B%20-%20Not%20Dividing/solution.cpp) |
 | 1797B | [Li Hua and Pattern](https://codeforces.com/contest/1797/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1797/B%20-%20Li%20Hua%20and%20Pattern/solution.cpp) |
 | 1806B | [Mex Master](https://codeforces.com/contest/1806/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1806/B%20-%20Mex%20Master/solution.cpp) |
+| 1811C | [Restore the Array](https://codeforces.com/contest/1811/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1811/C%20-%20Restore%20the%20Array/solution.cpp) |
 | 1816A | [Ian Visits Mary](https://codeforces.com/contest/1816/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1816/A%20-%20Ian%20Visits%20Mary/solution.cpp) |
 | 1828A | [Divisible Array](https://codeforces.com/contest/1828/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1828/A%20-%20Divisible%20Array/solution.cpp) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.cpp) |
@@ -847,6 +848,7 @@
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.cpp) |
 | 1807G2 | [Subsequence Addition (Hard Version)](https://codeforces.com/contest/1807/problem/G2) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1807/G2%20-%20Subsequence%20Addition%20(Hard%20Version)/solution.cpp) |
 | 1809B | [Points on Plane](https://codeforces.com/contest/1809/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1809/B%20-%20Points%20on%20Plane/solution.cpp) |
+| 1811C | [Restore the Array](https://codeforces.com/contest/1811/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1811/C%20-%20Restore%20the%20Array/solution.cpp) |
 | 1821B | [Sort the Subarray](https://codeforces.com/contest/1821/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1821/B%20-%20Sort%20the%20Subarray/solution.cpp) |
 | 1822B | [Karina and Array](https://codeforces.com/contest/1822/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1822/B%20-%20Karina%20and%20Array/solution.cpp) |
 | 1825B | [LuoTianyi and the Table](https://codeforces.com/contest/1825/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1825/B%20-%20LuoTianyi%20and%20the%20Table/solution.cpp) |
