@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 684 | 33 |
+| 685 | 33 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (37)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
-- [dp](#dp) (70)
+- [dp](#dp) (71)
 - [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -41,7 +41,7 @@
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
 - [sortings](#sortings) (77)
-- [strings](#strings) (38)
+- [strings](#strings) (39)
 - [ternary search](#ternary-search) (2)
 - [trees](#trees) (10)
 - [two pointers](#two-pointers) (38)
@@ -637,6 +637,7 @@
 | 2227E | [It All Went Sideways](https://codeforces.com/contest/2227/problem/E) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2227/E%20-%20It%20All%20Went%20Sideways/solution.cpp) |
 | 2227F | [It Just Keeps Going Sideways](https://codeforces.com/contest/2227/problem/F) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2227/F%20-%20It%20Just%20Keeps%20Going%20Sideways/solution.cpp) |
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
+| 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 
 ### dsu
 
@@ -1788,6 +1789,7 @@
 | 2192B | [Flipping Binary String](https://codeforces.com/contest/2192/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2192/B%20-%20Flipping%20Binary%20String/solution.cpp) |
 | 2200C | [Specialty String](https://codeforces.com/contest/2200/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2200/C%20-%20Specialty%20String/solution.cpp) |
 | 2207A | [1-1](https://codeforces.com/contest/2207/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2207/A%20-%201-1/solution.cpp) |
+| 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 
 ### ternary search
 
