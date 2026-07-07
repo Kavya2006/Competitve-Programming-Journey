@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 693 | 33 |
+| 694 | 33 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (15)
-- [binary search](#binary-search) (49)
+- [binary search](#binary-search) (50)
 - [bitmasks](#bitmasks) (29)
 - [brute force](#brute-force) (129)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (278)
+- [greedy](#greedy) (279)
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (208)
 - [interactive](#interactive) (3)
-- [math](#math) (326)
+- [math](#math) (327)
 - [number theory](#number-theory) (73)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -107,6 +107,7 @@
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
+| 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1777C | [Quiz Master](https://codeforces.com/contest/1777/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1777/C%20-%20Quiz%20Master/solution.cpp) |
 | 1809B | [Points on Plane](https://codeforces.com/contest/1809/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1809/B%20-%20Points%20on%20Plane/solution.cpp) |
@@ -822,6 +823,7 @@
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1732B | [Ugu](https://codeforces.com/contest/1732/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1732/B%20-%20Ugu/solution.cpp) |
 | 1742D | [Coprime](https://codeforces.com/contest/1742/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1742/D%20-%20Coprime/solution.cpp) |
+| 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
 | 1743B | [Permutation Value](https://codeforces.com/contest/1743/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1743/B%20-%20Permutation%20Value/solution.cpp) |
 | 1743C | [Save the Magazines](https://codeforces.com/contest/1743/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1743/C%20-%20Save%20the%20Magazines/solution.cpp) |
 | 1747A | [Two Groups](https://codeforces.com/contest/1747/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1747/A%20-%20Two%20Groups/solution.cpp) |
@@ -1361,6 +1363,7 @@
 | 1731A | [Joey Takes Money](https://codeforces.com/contest/1731/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1731/A%20-%20Joey%20Takes%20Money/solution.cpp) |
 | 1731B | [Kill Demodogs](https://codeforces.com/contest/1731/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1731/B%20-%20Kill%20Demodogs/solution.cpp) |
 | 1732A | [Bestie](https://codeforces.com/contest/1732/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1732/A%20-%20Bestie/solution.cpp) |
+| 1742E | [Scuza](https://codeforces.com/contest/1742/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1742/E%20-%20Scuza/solution.cpp) |
 | 1743A | [Password](https://codeforces.com/contest/1743/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1743/A%20-%20Password/solution.cpp) |
 | 1744B | [Even-Odd Increments ](https://codeforces.com/contest/1744/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1744/B%20-%20Even-Odd%20Increments%20/solution.cpp) |
 | 1748A | [The Ultimate Square](https://codeforces.com/contest/1748/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1748/A%20-%20The%20Ultimate%20Square/solution.cpp) |
