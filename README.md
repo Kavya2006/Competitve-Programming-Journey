@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 705 | 33 |
+| 706 | 33 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (51)
 - [bitmasks](#bitmasks) (29)
-- [brute force](#brute-force) (130)
+- [brute force](#brute-force) (131)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (38)
 - [constructive algorithms](#constructive-algorithms) (136)
@@ -33,7 +33,7 @@
 - [graphs](#graphs) (19)
 - [greedy](#greedy) (284)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (213)
+- [implementation](#implementation) (214)
 - [interactive](#interactive) (3)
 - [math](#math) (330)
 - [number theory](#number-theory) (73)
@@ -216,6 +216,7 @@
 | 1555A | [PizzaForces](https://codeforces.com/contest/1555/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1555/A%20-%20PizzaForces/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1680A | [Minimums and Maximums](https://codeforces.com/contest/1680/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1680/A%20-%20Minimums%20and%20Maximums/solution.cpp) |
+| 1692D | [The Clock](https://codeforces.com/contest/1692/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/D%20-%20The%20Clock/solution.cpp) |
 | 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1698A | [XOR Mixup](https://codeforces.com/contest/1698/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1698/A%20-%20XOR%20Mixup/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
@@ -1144,6 +1145,7 @@
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
 | 1692A | [Marathon](https://codeforces.com/contest/1692/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/A%20-%20Marathon/solution.cpp) |
 | 1692C | [Where's the Bishop?](https://codeforces.com/contest/1692/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/C%20-%20Where's%20the%20Bishop%3F/solution.cpp) |
+| 1692D | [The Clock](https://codeforces.com/contest/1692/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/D%20-%20The%20Clock/solution.cpp) |
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
 | 1703E | [Mirror Grid](https://codeforces.com/contest/1703/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1703/E%20-%20Mirror%20Grid/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
