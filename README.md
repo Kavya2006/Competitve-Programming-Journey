@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 699 | 33 |
+| 700 | 33 |
 
 ---
 
@@ -16,7 +16,7 @@
 - [Uncategorized](#uncategorized) (15)
 - [binary search](#binary-search) (51)
 - [bitmasks](#bitmasks) (29)
-- [brute force](#brute-force) (129)
+- [brute force](#brute-force) (130)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (38)
 - [constructive algorithms](#constructive-algorithms) (136)
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (2)
 - [implementation](#implementation) (211)
 - [interactive](#interactive) (3)
-- [math](#math) (328)
+- [math](#math) (329)
 - [number theory](#number-theory) (73)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -216,6 +216,7 @@
 | 1555A | [PizzaForces](https://codeforces.com/contest/1555/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1555/A%20-%20PizzaForces/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1680A | [Minimums and Maximums](https://codeforces.com/contest/1680/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1680/A%20-%20Minimums%20and%20Maximums/solution.cpp) |
+| 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1698A | [XOR Mixup](https://codeforces.com/contest/1698/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1698/A%20-%20XOR%20Mixup/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1720B | [Interesting Sum](https://codeforces.com/contest/1720/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1720/B%20-%20Interesting%20Sum/solution.cpp) |
@@ -1361,6 +1362,7 @@
 | 1675A | [Food for Animals](https://codeforces.com/contest/1675/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1675/A%20-%20Food%20for%20Animals/solution.cpp) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
 | 1680A | [Minimums and Maximums](https://codeforces.com/contest/1680/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1680/A%20-%20Minimums%20and%20Maximums/solution.cpp) |
+| 1692F | [3SUM](https://codeforces.com/contest/1692/problem/F) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/F%20-%203SUM/solution.cpp) |
 | 1708B | [Difference of GCDs](https://codeforces.com/contest/1708/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1708/B%20-%20Difference%20of%20GCDs/solution.cpp) |
 | 1715B | [Beautiful Array](https://codeforces.com/contest/1715/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1715/B%20-%20Beautiful%20Array/solution.cpp) |
 | 1716A | [2-3 Moves](https://codeforces.com/contest/1716/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1716/A%20-%202-3%20Moves/solution.cpp) |
