@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 697 | 33 |
+| 698 | 33 |
 
 ---
 
@@ -33,7 +33,7 @@
 - [graphs](#graphs) (19)
 - [greedy](#greedy) (282)
 - [hashing](#hashing) (2)
-- [implementation](#implementation) (209)
+- [implementation](#implementation) (210)
 - [interactive](#interactive) (3)
 - [math](#math) (328)
 - [number theory](#number-theory) (73)
@@ -1134,6 +1134,7 @@
 | 1680B | [Robots](https://codeforces.com/contest/1680/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1680/B%20-%20Robots/solution.cpp) |
 | 1690D | [Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1690/D%20-%20Black%20and%20White%20Stripe/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
+| 1703E | [Mirror Grid](https://codeforces.com/contest/1703/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1703/E%20-%20Mirror%20Grid/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1722B | [Colourblindness](https://codeforces.com/contest/1722/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1722/B%20-%20Colourblindness/solution.cpp) |
 | 1732A | [Bestie](https://codeforces.com/contest/1732/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1732/A%20-%20Bestie/solution.cpp) |
