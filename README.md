@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 707 | 33 |
+| 708 | 33 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (38)
 - [constructive algorithms](#constructive-algorithms) (136)
-- [data structures](#data-structures) (44)
+- [data structures](#data-structures) (45)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
 - [dp](#dp) (73)
@@ -500,6 +500,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 6E | [Exposition](https://codeforces.com/contest/6/problem/E) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/6/E%20-%20Exposition/solution.cpp) |
+| 52C | [Circular RMQ](https://codeforces.com/contest/52/problem/C) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/52/C%20-%20Circular%20RMQ/solution.cpp) |
 | 191C | [Fools and Roads](https://codeforces.com/contest/191/problem/C) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/191/C%20-%20Fools%20and%20Roads/solution.cpp) |
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
 | 367B | [Sereja ans Anagrams](https://codeforces.com/contest/367/problem/B) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/367/B%20-%20Sereja%20ans%20Anagrams/solution.cpp) |
