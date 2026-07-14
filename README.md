@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 732 | 33 |
+| 733 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (19)
+- [Uncategorized](#uncategorized) (20)
 - [binary search](#binary-search) (52)
 - [bitmasks](#bitmasks) (30)
 - [brute force](#brute-force) (139)
@@ -77,6 +77,7 @@
 | 2240D | [Decidophobia](https://codeforces.com/contest/2240/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2240/D%20-%20Decidophobia/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 | 2244A | [Iskander and Drawings](https://codeforces.com/contest/2244/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2244/A%20-%20Iskander%20and%20Drawings/solution.cpp) |
+| 2244B | [Nikita and Books](https://codeforces.com/contest/2244/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2244/B%20-%20Nikita%20and%20Books/solution.cpp) |
 | 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
