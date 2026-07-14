@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 726 | 33 |
+| 727 | 33 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (39)
 - [constructive algorithms](#constructive-algorithms) (141)
-- [data structures](#data-structures) (49)
+- [data structures](#data-structures) (50)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
 - [dp](#dp) (73)
@@ -32,10 +32,10 @@
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
 - [greedy](#greedy) (291)
-- [hashing](#hashing) (2)
+- [hashing](#hashing) (3)
 - [implementation](#implementation) (217)
 - [interactive](#interactive) (3)
-- [math](#math) (336)
+- [math](#math) (337)
 - [number theory](#number-theory) (75)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -544,6 +544,7 @@
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
+| 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1582C | [Grandma Capa Knits a Scarf](https://codeforces.com/contest/1582/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1582/C%20-%20Grandma%20Capa%20Knits%20a%20Scarf/solution.cpp) |
 | 1656B | [Subtract Operation](https://codeforces.com/contest/1656/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1656/B%20-%20Subtract%20Operation/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
@@ -1077,6 +1078,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1225D | [Power Products](https://codeforces.com/contest/1225/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1225/D%20-%20Power%20Products/solution.cpp) |
+| 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 2148A | [Sublime Sequence](https://codeforces.com/contest/2148/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2148/A%20-%20Sublime%20Sequence/solution.cpp) |
 
 ### implementation
@@ -1387,6 +1389,7 @@
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
 | 1512G | [Short Task](https://codeforces.com/contest/1512/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1512/G%20-%20Short%20Task/solution.cpp) |
+| 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1541B | [Pleasant Pairs](https://codeforces.com/contest/1541/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1541/B%20-%20Pleasant%20Pairs/solution.cpp) |
