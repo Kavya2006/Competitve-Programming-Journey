@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 728 | 33 |
+| 729 | 33 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (139)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (40)
-- [constructive algorithms](#constructive-algorithms) (141)
+- [constructive algorithms](#constructive-algorithms) (142)
 - [data structures](#data-structures) (50)
 - [dfs and similar](#dfs-and-similar) (23)
 - [divide and conquer](#divide-and-conquer) (3)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (291)
+- [greedy](#greedy) (292)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (217)
+- [implementation](#implementation) (218)
 - [interactive](#interactive) (3)
-- [math](#math) (338)
+- [math](#math) (339)
 - [number theory](#number-theory) (75)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -392,6 +392,7 @@
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1527B1 | [Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1527/B1%20-%20Palindrome%20Game%20(easy%20version)/solution.cpp) |
 | 1527B2 | [Palindrome Game (hard version)](https://codeforces.com/contest/1527/problem/B2) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1527/B2%20-%20Palindrome%20Game%20(hard%20version)/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
@@ -831,6 +832,7 @@
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
 | 1539C | [Stable Groups](https://codeforces.com/contest/1539/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1539/C%20-%20Stable%20Groups/solution.cpp) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
@@ -1167,6 +1169,7 @@
 | 1426B | [Symmetric Matrix](https://codeforces.com/contest/1426/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1426/B%20-%20Symmetric%20Matrix/solution.cpp) |
 | 1430C | [Numbers on Whiteboard](https://codeforces.com/contest/1430/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1430/C%20-%20Numbers%20on%20Whiteboard/solution.cpp) |
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
 | 1505B | [DMCA](https://codeforces.com/contest/1505/problem/B) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1505/B%20-%20DMCA/solution.cpp) |
 | 1505C | [Fibonacci Words](https://codeforces.com/contest/1505/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1505/C%20-%20Fibonacci%20Words/solution.cpp) |
@@ -1390,6 +1393,7 @@
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
+| 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1512G | [Short Task](https://codeforces.com/contest/1512/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1512/G%20-%20Short%20Task/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
