@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 742 | 33 |
+| 743 | 33 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (24)
-- [binary search](#binary-search) (52)
+- [binary search](#binary-search) (53)
 - [bitmasks](#bitmasks) (31)
 - [brute force](#brute-force) (139)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (52)
 - [dfs and similar](#dfs-and-similar) (24)
 - [divide and conquer](#divide-and-conquer) (3)
-- [dp](#dp) (74)
+- [dp](#dp) (75)
 - [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (294)
+- [greedy](#greedy) (295)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (218)
 - [interactive](#interactive) (3)
@@ -103,6 +103,7 @@
 | 616D | [Longest k-Good Segment](https://codeforces.com/contest/616/problem/D) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/616/D%20-%20Longest%20k-Good%20Segment/solution.cpp) |
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/702/C%20-%20Cellular%20Network/solution.cpp) |
 | 706B | [Interesting drink](https://codeforces.com/contest/706/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/706/B%20-%20Interesting%20drink/solution.cpp) |
+| 1082E | [Increasing Frequency](https://codeforces.com/contest/1082/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1082/E%20-%20Increasing%20Frequency/solution.cpp) |
 | 1177B | [Digits Sequence (Hard Edition)](https://codeforces.com/contest/1177/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1177/B%20-%20Digits%20Sequence%20(Hard%20Edition)/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1244E | [Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1244/E%20-%20Minimizing%20Difference/solution.cpp) |
@@ -638,6 +639,7 @@
 | 797B | [Odd sum](https://codeforces.com/contest/797/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/797/B%20-%20Odd%20sum/solution.cpp) |
 | 835C | [Star sky](https://codeforces.com/contest/835/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/835/C%20-%20Star%20sky/solution.cpp) |
 | 894A | [QAQ](https://codeforces.com/contest/894/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/894/A%20-%20QAQ/solution.cpp) |
+| 1082E | [Increasing Frequency](https://codeforces.com/contest/1082/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1082/E%20-%20Increasing%20Frequency/solution.cpp) |
 | 1084C | [The Fair Nut and String](https://codeforces.com/contest/1084/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1084/C%20-%20The%20Fair%20Nut%20and%20String/solution.cpp) |
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.cpp) |
 | 1206B | [Make Product Equal One](https://codeforces.com/contest/1206/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1206/B%20-%20Make%20Product%20Equal%20One/solution.cpp) |
@@ -817,6 +819,7 @@
 | 797B | [Odd sum](https://codeforces.com/contest/797/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/797/B%20-%20Odd%20sum/solution.cpp) |
 | 893C | [Rumor](https://codeforces.com/contest/893/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/893/C%20-%20Rumor/solution.cpp) |
 | 922D | [Robot Vacuum Cleaner](https://codeforces.com/contest/922/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/922/D%20-%20Robot%20Vacuum%20Cleaner/solution.cpp) |
+| 1082E | [Increasing Frequency](https://codeforces.com/contest/1082/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1082/E%20-%20Increasing%20Frequency/solution.cpp) |
 | 1117B | [Emotes](https://codeforces.com/contest/1117/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1117/B%20-%20Emotes/solution.cpp) |
 | 1166A | [Silent Classroom](https://codeforces.com/contest/1166/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1166/A%20-%20Silent%20Classroom/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
