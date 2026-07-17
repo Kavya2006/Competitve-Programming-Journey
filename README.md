@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 741 | 33 |
+| 742 | 33 |
 
 ---
 
@@ -20,7 +20,7 @@
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (40)
 - [constructive algorithms](#constructive-algorithms) (145)
-- [data structures](#data-structures) (51)
+- [data structures](#data-structures) (52)
 - [dfs and similar](#dfs-and-similar) (24)
 - [divide and conquer](#divide-and-conquer) (3)
 - [dp](#dp) (74)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (293)
+- [greedy](#greedy) (294)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (218)
 - [interactive](#interactive) (3)
-- [math](#math) (343)
+- [math](#math) (344)
 - [number theory](#number-theory) (76)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -571,6 +571,7 @@
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1807G1 | [Subsequence Addition (Easy Version)](https://codeforces.com/contest/1807/problem/G1) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1807/G1%20-%20Subsequence%20Addition%20(Easy%20Version)/solution.cpp) |
 | 1848B | [Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1848/B%20-%20Vika%20and%20the%20Bridge/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1917B | [Erase First or Second Letter](https://codeforces.com/contest/1917/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1917/B%20-%20Erase%20First%20or%20Second%20Letter/solution.cpp) |
 | 1982C | [Boring Day](https://codeforces.com/contest/1982/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1982/C%20-%20Boring%20Day/solution.cpp) |
 | 2132E | [Arithmetics Competition](https://codeforces.com/contest/2132/problem/E) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2132/E%20-%20Arithmetics%20Competition/solution.cpp) |
@@ -957,6 +958,7 @@
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1914/C%20-%20Quests/solution.cpp) |
 | 1914D | [Three Activities](https://codeforces.com/contest/1914/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1914/D%20-%20Three%20Activities/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1918A | [Brick Wall](https://codeforces.com/contest/1918/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1918/A%20-%20Brick%20Wall/solution.cpp) |
 | 1920A | [Satisfying Constraints](https://codeforces.com/contest/1920/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1920/A%20-%20Satisfying%20Constraints/solution.cpp) |
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1921/A%20-%20Square/solution.cpp) |
@@ -1540,6 +1542,7 @@
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1901/A%20-%20Line%20Trip/solution.cpp) |
 | 1909A | [Distinct Buttons](https://codeforces.com/contest/1909/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1909/A%20-%20Distinct%20Buttons/solution.cpp) |
 | 1914C | [Quests](https://codeforces.com/contest/1914/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1914/C%20-%20Quests/solution.cpp) |
+| 1915E | [Romantic Glasses](https://codeforces.com/contest/1915/problem/E) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1915/E%20-%20Romantic%20Glasses/solution.cpp) |
 | 1916B | [Two Divisors](https://codeforces.com/contest/1916/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1916/B%20-%20Two%20Divisors/solution.cpp) |
 | 1917A | [Least Product](https://codeforces.com/contest/1917/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1917/A%20-%20Least%20Product/solution.cpp) |
 | 1918A | [Brick Wall](https://codeforces.com/contest/1918/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1918/A%20-%20Brick%20Wall/solution.cpp) |
