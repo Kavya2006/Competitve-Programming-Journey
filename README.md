@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 748 | 33 |
+| 749 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (24)
+- [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (54)
 - [bitmasks](#bitmasks) (32)
 - [brute force](#brute-force) (141)
@@ -85,6 +85,7 @@
 | 2246A | [farmpiggie and Subset Sum](https://codeforces.com/contest/2246/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/A%20-%20farmpiggie%20and%20Subset%20Sum/solution.cpp) |
 | 2246B | [ezraft and Array](https://codeforces.com/contest/2246/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/B%20-%20ezraft%20and%20Array/solution.cpp) |
 | 2246C | [0mar and Alternating Sums](https://codeforces.com/contest/2246/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/C%20-%200mar%20and%20Alternating%20Sums/solution.cpp) |
+| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.cpp) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.cpp) |
 | 102961A | [Distinct Numbers](https://codeforces.com/contest/102961/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/102961/A%20-%20Distinct%20Numbers/solution.cpp) |
 
