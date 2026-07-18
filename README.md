@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 750 | 33 |
+| 751 | 33 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (296)
+- [greedy](#greedy) (297)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (220)
 - [interactive](#interactive) (3)
@@ -1104,6 +1104,7 @@
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
 | 2239B | [Decidophobia](https://codeforces.com/contest/2239/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2239/B%20-%20Decidophobia/solution.cpp) |
 | 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
+| 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 
 ### hashing
 
