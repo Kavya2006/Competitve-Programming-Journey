@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 754 | 33 |
+| 755 | 33 |
 
 ---
 
@@ -15,7 +15,7 @@
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (26)
 - [binary search](#binary-search) (56)
-- [bitmasks](#bitmasks) (34)
+- [bitmasks](#bitmasks) (35)
 - [brute force](#brute-force) (141)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (299)
+- [greedy](#greedy) (300)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (220)
 - [interactive](#interactive) (3)
-- [math](#math) (348)
+- [math](#math) (349)
 - [number theory](#number-theory) (77)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -164,6 +164,7 @@
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
 | 1632B | [Roof Construction](https://codeforces.com/contest/1632/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1632/B%20-%20Roof%20Construction/solution.cpp) |
 | 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
+| 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
 | 1682B | [AND Sorting](https://codeforces.com/contest/1682/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1682/B%20-%20AND%20Sorting/solution.cpp) |
 | 1696A | [NIT orz!](https://codeforces.com/contest/1696/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1696/A%20-%20NIT%20orz!/solution.cpp) |
 | 1698A | [XOR Mixup](https://codeforces.com/contest/1698/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1698/A%20-%20XOR%20Mixup/solution.cpp) |
@@ -884,6 +885,7 @@
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.cpp) |
 | 1666D | [Deletive Editing](https://codeforces.com/contest/1666/problem/D) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1666/D%20-%20Deletive%20Editing/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
+| 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1673B | [A Perfectly Balanced String?](https://codeforces.com/contest/1673/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1673/B%20-%20A%20Perfectly%20Balanced%20String%3F/solution.cpp) |
 | 1675A | [Food for Animals](https://codeforces.com/contest/1675/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1675/A%20-%20Food%20for%20Animals/solution.cpp) |
@@ -1463,6 +1465,7 @@
 | 1656C | [Make Equal With Mod](https://codeforces.com/contest/1656/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1656/C%20-%20Make%20Equal%20With%20Mod/solution.cpp) |
 | 1659A | [Red Versus Blue](https://codeforces.com/contest/1659/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1659/A%20-%20Red%20Versus%20Blue/solution.cpp) |
 | 1665A | [GCD vs LCM](https://codeforces.com/contest/1665/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1665/A%20-%20GCD%20vs%20LCM/solution.cpp) |
+| 1669H | [Maximal AND](https://codeforces.com/contest/1669/problem/H) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/H%20-%20Maximal%20AND/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1674A | [Number Transformation](https://codeforces.com/contest/1674/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1674/A%20-%20Number%20Transformation/solution.cpp) |
 | 1674B | [Dictionary](https://codeforces.com/contest/1674/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1674/B%20-%20Dictionary/solution.cpp) |
