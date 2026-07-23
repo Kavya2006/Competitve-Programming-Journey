@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 756 | 33 |
+| 757 | 33 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (26)
-- [binary search](#binary-search) (56)
+- [binary search](#binary-search) (57)
 - [bitmasks](#bitmasks) (35)
 - [brute force](#brute-force) (141)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -35,7 +35,7 @@
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (221)
 - [interactive](#interactive) (3)
-- [math](#math) (349)
+- [math](#math) (350)
 - [number theory](#number-theory) (77)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -117,6 +117,7 @@
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.cpp) |
 | 1443C | [The Delivery Dilemma](https://codeforces.com/contest/1443/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1443/C%20-%20The%20Delivery%20Dilemma/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
 | 1671C | [Dolce Vita](https://codeforces.com/contest/1671/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1671/C%20-%20Dolce%20Vita/solution.cpp) |
 | 1692E | [Binary Deque](https://codeforces.com/contest/1692/problem/E) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1692/E%20-%20Binary%20Deque/solution.cpp) |
@@ -1460,6 +1461,7 @@
 | 1594C | [Make Them Equal](https://codeforces.com/contest/1594/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1594/C%20-%20Make%20Them%20Equal/solution.cpp) |
 | 1594E1 | [Rubik's Cube Coloring (easy version)](https://codeforces.com/contest/1594/problem/E1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1594/E1%20-%20Rubik's%20Cube%20Coloring%20(easy%20version)/solution.cpp) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
+| 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
 | 1624B | [Make AP](https://codeforces.com/contest/1624/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1624/B%20-%20Make%20AP/solution.cpp) |
