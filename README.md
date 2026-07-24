@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 759 | 33 |
+| 760 | 33 |
 
 ---
 
@@ -14,13 +14,13 @@
 
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (26)
-- [binary search](#binary-search) (58)
-- [bitmasks](#bitmasks) (36)
+- [binary search](#binary-search) (59)
+- [bitmasks](#bitmasks) (37)
 - [brute force](#brute-force) (141)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
 - [constructive algorithms](#constructive-algorithms) (146)
-- [data structures](#data-structures) (53)
+- [data structures](#data-structures) (54)
 - [dfs and similar](#dfs-and-similar) (25)
 - [divide and conquer](#divide-and-conquer) (4)
 - [dp](#dp) (77)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (302)
+- [greedy](#greedy) (303)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (221)
 - [interactive](#interactive) (3)
@@ -117,6 +117,7 @@
 | 1419D2 | [Sage's Birthday (hard version)](https://codeforces.com/contest/1419/problem/D2) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1419/D2%20-%20Sage's%20Birthday%20(hard%20version)/solution.cpp) |
 | 1443C | [The Delivery Dilemma](https://codeforces.com/contest/1443/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1443/C%20-%20The%20Delivery%20Dilemma/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
+| 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1561C | [Deep Down Below](https://codeforces.com/contest/1561/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1561/C%20-%20Deep%20Down%20Below/solution.cpp) |
 | 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1669F | [Eating Candies](https://codeforces.com/contest/1669/problem/F) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1669/F%20-%20Eating%20Candies/solution.cpp) |
@@ -161,6 +162,7 @@
 | 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
 | 1420B | [Rock and Lever](https://codeforces.com/contest/1420/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/B%20-%20Rock%20and%20Lever/solution.cpp) |
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
+| 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
@@ -572,6 +574,7 @@
 | 1430C | [Numbers on Whiteboard](https://codeforces.com/contest/1430/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1430/C%20-%20Numbers%20on%20Whiteboard/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
+| 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
 | 1511C | [Yet Another Card Deck](https://codeforces.com/contest/1511/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1511/C%20-%20Yet%20Another%20Card%20Deck/solution.cpp) |
 | 1520D | [Same Differences](https://codeforces.com/contest/1520/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1520/D%20-%20Same%20Differences/solution.cpp) |
@@ -870,6 +873,7 @@
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
 | 1485A | [Add and Divide](https://codeforces.com/contest/1485/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1485/A%20-%20Add%20and%20Divide/solution.cpp) |
 | 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
+| 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1499C | [Minimum Grid Path](https://codeforces.com/contest/1499/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1499/C%20-%20Minimum%20Grid%20Path/solution.cpp) |
 | 1504B | [Flip the Bits](https://codeforces.com/contest/1504/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1504/B%20-%20Flip%20the%20Bits/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
