@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 760 | 33 |
+| 761 | 33 |
 
 ---
 
@@ -31,12 +31,12 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (303)
+- [greedy](#greedy) (304)
 - [hashing](#hashing) (3)
-- [implementation](#implementation) (221)
+- [implementation](#implementation) (222)
 - [interactive](#interactive) (3)
-- [math](#math) (351)
-- [number theory](#number-theory) (78)
+- [math](#math) (352)
+- [number theory](#number-theory) (79)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
@@ -1013,6 +1013,7 @@
 | 1996B | [Scale](https://codeforces.com/contest/1996/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1996/B%20-%20Scale/solution.cpp) |
 | 2008A | [Sakurako's Exam](https://codeforces.com/contest/2008/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2008/A%20-%20Sakurako's%20Exam/solution.cpp) |
 | 2013B | [Battle for Survive](https://codeforces.com/contest/2013/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2013/B%20-%20Battle%20for%20Survive/solution.cpp) |
+| 2032A | [Circuit](https://codeforces.com/contest/2032/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2032/A%20-%20Circuit/solution.cpp) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.cpp) |
 | 2038J | [Waiting for...](https://codeforces.com/contest/2038/problem/J) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2038/J%20-%20Waiting%20for.../solution.cpp) |
 | 2038L | [Bridge Renovation](https://codeforces.com/contest/2038/problem/L) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2038/L%20-%20Bridge%20Renovation/solution.cpp) |
@@ -1316,6 +1317,7 @@
 | 1998A | [Find K Distinct Points with Fixed Center](https://codeforces.com/contest/1998/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1998/A%20-%20Find%20K%20Distinct%20Points%20with%20Fixed%20Center/solution.cpp) |
 | 1999A | [A+B Again?](https://codeforces.com/contest/1999/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1999/A%20-%20A%2BB%20Again%3F/solution.cpp) |
 | 2009B | [osu!mania](https://codeforces.com/contest/2009/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2009/B%20-%20osu!mania/solution.cpp) |
+| 2032A | [Circuit](https://codeforces.com/contest/2032/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2032/A%20-%20Circuit/solution.cpp) |
 | 2037A | [Twice](https://codeforces.com/contest/2037/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2037/A%20-%20Twice/solution.cpp) |
 | 2037B | [Intercepted Inputs](https://codeforces.com/contest/2037/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2037/B%20-%20Intercepted%20Inputs/solution.cpp) |
 | 2038J | [Waiting for...](https://codeforces.com/contest/2038/problem/J) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2038/J%20-%20Waiting%20for.../solution.cpp) |
@@ -1618,6 +1620,7 @@
 | 2009A | [Minimize!](https://codeforces.com/contest/2009/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2009/A%20-%20Minimize!/solution.cpp) |
 | 2013A | [Zhan's Blender](https://codeforces.com/contest/2013/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2013/A%20-%20Zhan's%20Blender/solution.cpp) |
 | 2013B | [Battle for Survive](https://codeforces.com/contest/2013/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2013/B%20-%20Battle%20for%20Survive/solution.cpp) |
+| 2032A | [Circuit](https://codeforces.com/contest/2032/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2032/A%20-%20Circuit/solution.cpp) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.cpp) |
 | 2038L | [Bridge Renovation](https://codeforces.com/contest/2038/problem/L) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2038/L%20-%20Bridge%20Renovation/solution.cpp) |
 | 2043B | [Digits](https://codeforces.com/contest/2043/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2043/B%20-%20Digits/solution.cpp) |
@@ -1785,6 +1788,7 @@
 | 1968C | [Assembly via Remainders](https://codeforces.com/contest/1968/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1968/C%20-%20Assembly%20via%20Remainders/solution.cpp) |
 | 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.cpp) |
 | 2008F | [Sakurako's Box](https://codeforces.com/contest/2008/problem/F) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2008/F%20-%20Sakurako's%20Box/solution.cpp) |
+| 2032A | [Circuit](https://codeforces.com/contest/2032/problem/A) | 800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2032/A%20-%20Circuit/solution.cpp) |
 | 2037C | [Superultra's Favorite Permutation](https://codeforces.com/contest/2037/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2037/C%20-%20Superultra's%20Favorite%20Permutation/solution.cpp) |
 | 2043B | [Digits](https://codeforces.com/contest/2043/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2043/B%20-%20Digits/solution.cpp) |
 | 2092A | [Kamilka and the Sheep](https://codeforces.com/contest/2092/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2092/A%20-%20Kamilka%20and%20the%20Sheep/solution.cpp) |
