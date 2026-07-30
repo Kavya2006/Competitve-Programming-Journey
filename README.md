@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 764 | 33 |
+| 765 | 33 |
 
 ---
 
@@ -15,11 +15,11 @@
 - [*special](#special) (6)
 - [Uncategorized](#uncategorized) (26)
 - [binary search](#binary-search) (60)
-- [bitmasks](#bitmasks) (37)
+- [bitmasks](#bitmasks) (38)
 - [brute force](#brute-force) (142)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
-- [constructive algorithms](#constructive-algorithms) (147)
+- [constructive algorithms](#constructive-algorithms) (148)
 - [data structures](#data-structures) (54)
 - [dfs and similar](#dfs-and-similar) (25)
 - [divide and conquer](#divide-and-conquer) (4)
@@ -34,8 +34,8 @@
 - [greedy](#greedy) (306)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
-- [interactive](#interactive) (3)
-- [math](#math) (353)
+- [interactive](#interactive) (4)
+- [math](#math) (354)
 - [number theory](#number-theory) (79)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -165,6 +165,7 @@
 | 1421A | [XORwice](https://codeforces.com/contest/1421/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1421/A%20-%20XORwice/solution.cpp) |
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1514B | [AND 0, Sum Big](https://codeforces.com/contest/1514/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1514/B%20-%20AND%200%2C%20Sum%20Big/solution.cpp) |
+| 1556D | [Take a Guess](https://codeforces.com/contest/1556/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/D%20-%20Take%20a%20Guess/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1567B | [MEXor Mixup](https://codeforces.com/contest/1567/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1567/B%20-%20MEXor%20Mixup/solution.cpp) |
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
@@ -427,6 +428,7 @@
 | 1527B2 | [Palindrome Game (hard version)](https://codeforces.com/contest/1527/problem/B2) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1527/B2%20-%20Palindrome%20Game%20(hard%20version)/solution.cpp) |
 | 1536B | [Prinzessin der Verurteilung](https://codeforces.com/contest/1536/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1536/B%20-%20Prinzessin%20der%20Verurteilung/solution.cpp) |
 | 1537B | [Bad Boy](https://codeforces.com/contest/1537/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1537/B%20-%20Bad%20Boy/solution.cpp) |
+| 1556D | [Take a Guess](https://codeforces.com/contest/1556/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/D%20-%20Take%20a%20Guess/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1574A | [Regular Bracket Sequences](https://codeforces.com/contest/1574/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1574/A%20-%20Regular%20Bracket%20Sequences/solution.cpp) |
 | 1614B | [Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1614/B%20-%20Divan%20and%20a%20New%20Project%20/solution.cpp) |
@@ -1377,6 +1379,7 @@
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 755C | [PolandBall and Forest](https://codeforces.com/contest/755/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/755/C%20-%20PolandBall%20and%20Forest/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
+| 1556D | [Take a Guess](https://codeforces.com/contest/1556/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/D%20-%20Take%20a%20Guess/solution.cpp) |
 
 ### math
 
@@ -1470,6 +1473,7 @@
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.cpp) |
 | 1555A | [PizzaForces](https://codeforces.com/contest/1555/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1555/A%20-%20PizzaForces/solution.cpp) |
 | 1556A | [A Variety of Operations](https://codeforces.com/contest/1556/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/A%20-%20A%20Variety%20of%20Operations/solution.cpp) |
+| 1556D | [Take a Guess](https://codeforces.com/contest/1556/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/D%20-%20Take%20a%20Guess/solution.cpp) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.cpp) |
 | 1582A | [Luntik and Concerts](https://codeforces.com/contest/1582/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1582/A%20-%20Luntik%20and%20Concerts/solution.cpp) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.cpp) |
