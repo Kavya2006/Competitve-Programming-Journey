@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 768 | 33 |
+| 769 | 33 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (54)
 - [dfs and similar](#dfs-and-similar) (25)
 - [divide and conquer](#divide-and-conquer) (4)
-- [dp](#dp) (78)
+- [dp](#dp) (79)
 - [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (307)
+- [greedy](#greedy) (308)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
@@ -732,6 +732,7 @@
 | 2232C1 | [Seating Arrangement (Easy Version)](https://codeforces.com/contest/2232/problem/C1) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2232/C1%20-%20Seating%20Arrangement%20(Easy%20Version)/solution.cpp) |
 | 2242D | [Two Digit Strings](https://codeforces.com/contest/2242/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2242/D%20-%20Two%20Digit%20Strings/solution.cpp) |
 | 2244E | [Masha and the Garland](https://codeforces.com/contest/2244/problem/E) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2244/E%20-%20Masha%20and%20the%20Garland/solution.cpp) |
+| 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
 
 ### dsu
 
@@ -1139,6 +1140,7 @@
 | 2246D | [diss_quack and Array Game](https://codeforces.com/contest/2246/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2246/D%20-%20diss_quack%20and%20Array%20Game/solution.cpp) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 | 2247D1 | [XOR Sorting (Easy Version)](https://codeforces.com/contest/2247/problem/D1) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/D1%20-%20XOR%20Sorting%20(Easy%20Version)/solution.cpp) |
+| 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
 
 ### hashing
 
