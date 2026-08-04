@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 770 | 33 |
+| 771 | 33 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (6)
-- [Uncategorized](#uncategorized) (29)
+- [Uncategorized](#uncategorized) (30)
 - [binary search](#binary-search) (60)
 - [bitmasks](#bitmasks) (38)
 - [brute force](#brute-force) (142)
@@ -90,6 +90,7 @@
 | 2248A | [You Delete, I Delete](https://codeforces.com/contest/2248/problem/A) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/A%20-%20You%20Delete%2C%20I%20Delete/solution.cpp) |
 | 2248B | [Merge to Match](https://codeforces.com/contest/2248/problem/B) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/B%20-%20Merge%20to%20Match/solution.cpp) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2254/A%20-%20Riptide/solution.cpp) |
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2254/B%20-%20Evanescent/solution.cpp) |
 | 1010211 | [Guess the Number](https://codeforces.com/contest/101021/problem/1) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/101021/1%20-%20Guess%20the%20Number/solution.cpp) |
 | 102961A | [Distinct Numbers](https://codeforces.com/contest/102961/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/102961/A%20-%20Distinct%20Numbers/solution.cpp) |
 
