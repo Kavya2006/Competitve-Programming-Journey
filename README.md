@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 784 | 33 |
+| 785 | 33 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (312)
+- [greedy](#greedy) (313)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
@@ -40,7 +40,7 @@
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
-- [sortings](#sortings) (91)
+- [sortings](#sortings) (92)
 - [strings](#strings) (44)
 - [ternary search](#ternary-search) (3)
 - [trees](#trees) (12)
@@ -1166,6 +1166,7 @@
 | 2247D1 | [XOR Sorting (Easy Version)](https://codeforces.com/contest/2247/problem/D1) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/D1%20-%20XOR%20Sorting%20(Easy%20Version)/solution.cpp) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
 | 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
+| 2252D | [Array Replacement](https://codeforces.com/contest/2252/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/D%20-%20Array%20Replacement/solution.cpp) |
 
 ### hashing
 
@@ -1977,6 +1978,7 @@
 | 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 | 2239B | [Decidophobia](https://codeforces.com/contest/2239/problem/B) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2239/B%20-%20Decidophobia/solution.cpp) |
 | 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
+| 2252D | [Array Replacement](https://codeforces.com/contest/2252/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/D%20-%20Array%20Replacement/solution.cpp) |
 
 ### strings
 
