@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 785 | 33 |
+| 786 | 33 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (143)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
-- [constructive algorithms](#constructive-algorithms) (153)
+- [constructive algorithms](#constructive-algorithms) (154)
 - [data structures](#data-structures) (55)
 - [dfs and similar](#dfs-and-similar) (26)
 - [divide and conquer](#divide-and-conquer) (4)
@@ -31,11 +31,11 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (313)
+- [greedy](#greedy) (314)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
-- [math](#math) (357)
+- [math](#math) (358)
 - [number theory](#number-theory) (79)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
@@ -566,6 +566,7 @@
 | 2230C | [Arrange the Numbers in a Circle](https://codeforces.com/contest/2230/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2230/C%20-%20Arrange%20the%20Numbers%20in%20a%20Circle/solution.cpp) |
 | 2231A | [Construct an Array](https://codeforces.com/contest/2231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2231/A%20-%20Construct%20an%20Array/solution.cpp) |
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
+| 2248D | [Good Pair Queries](https://codeforces.com/contest/2248/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/D%20-%20Good%20Pair%20Queries/solution.cpp) |
 | 2254F | [Whiplash](https://codeforces.com/contest/2254/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2254/F%20-%20Whiplash/solution.cpp) |
 
 ### data structures
@@ -1165,6 +1166,7 @@
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.cpp) |
 | 2247D1 | [XOR Sorting (Easy Version)](https://codeforces.com/contest/2247/problem/D1) | Unrated | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2247/D1%20-%20XOR%20Sorting%20(Easy%20Version)/solution.cpp) |
 | 2248C | [Maximize the Score](https://codeforces.com/contest/2248/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/C%20-%20Maximize%20the%20Score/solution.cpp) |
+| 2248D | [Good Pair Queries](https://codeforces.com/contest/2248/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/D%20-%20Good%20Pair%20Queries/solution.cpp) |
 | 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 | 2252D | [Array Replacement](https://codeforces.com/contest/2252/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/D%20-%20Array%20Replacement/solution.cpp) |
 
@@ -1772,6 +1774,7 @@
 | 2234A | [Euclid, Sequence and Two Numbers](https://codeforces.com/contest/2234/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/A%20-%20Euclid%2C%20Sequence%20and%20Two%20Numbers/solution.cpp) |
 | 2234B | [Palindrome, Twelve and Two Terms](https://codeforces.com/contest/2234/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2234/B%20-%20Palindrome%2C%20Twelve%20and%20Two%20Terms/solution.cpp) |
 | 2238D | [Storming Arasaka](https://codeforces.com/contest/2238/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2238/D%20-%20Storming%20Arasaka/solution.cpp) |
+| 2248D | [Good Pair Queries](https://codeforces.com/contest/2248/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/D%20-%20Good%20Pair%20Queries/solution.cpp) |
 | 2254F | [Whiplash](https://codeforces.com/contest/2254/problem/F) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2254/F%20-%20Whiplash/solution.cpp) |
 
 ### number theory
