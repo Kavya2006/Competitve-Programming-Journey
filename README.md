@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 782 | 33 |
+| 783 | 33 |
 
 ---
 
@@ -19,11 +19,11 @@
 - [brute force](#brute-force) (143)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
-- [constructive algorithms](#constructive-algorithms) (151)
+- [constructive algorithms](#constructive-algorithms) (152)
 - [data structures](#data-structures) (55)
 - [dfs and similar](#dfs-and-similar) (26)
 - [divide and conquer](#divide-and-conquer) (4)
-- [dp](#dp) (81)
+- [dp](#dp) (82)
 - [dsu](#dsu) (11)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (311)
+- [greedy](#greedy) (312)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
@@ -432,6 +432,7 @@
 | 1430C | [Numbers on Whiteboard](https://codeforces.com/contest/1430/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1430/C%20-%20Numbers%20on%20Whiteboard/solution.cpp) |
 | 1433D | [Districts Connection](https://codeforces.com/contest/1433/problem/D) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1433/D%20-%20Districts%20Connection/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
+| 1442A | [Extreme Subtraction](https://codeforces.com/contest/1442/problem/A) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1442/A%20-%20Extreme%20Subtraction/solution.cpp) |
 | 1474B | [Different Divisors](https://codeforces.com/contest/1474/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/B%20-%20Different%20Divisors/solution.cpp) |
 | 1474C | [Array Destruction](https://codeforces.com/contest/1474/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1474/C%20-%20Array%20Destruction/solution.cpp) |
 | 1497B | [M-arrays](https://codeforces.com/contest/1497/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1497/B%20-%20M-arrays/solution.cpp) |
@@ -697,6 +698,7 @@
 | 1398C | [Good Subarrays](https://codeforces.com/contest/1398/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1398/C%20-%20Good%20Subarrays/solution.cpp) |
 | 1407D | [Discrete Centrifugal Jumps](https://codeforces.com/contest/1407/problem/D) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1407/D%20-%20Discrete%20Centrifugal%20Jumps/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
+| 1442A | [Extreme Subtraction](https://codeforces.com/contest/1442/problem/A) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1442/A%20-%20Extreme%20Subtraction/solution.cpp) |
 | 1469B | [Red and Blue](https://codeforces.com/contest/1469/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1469/B%20-%20Red%20and%20Blue/solution.cpp) |
 | 1512G | [Short Task](https://codeforces.com/contest/1512/problem/G) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1512/G%20-%20Short%20Task/solution.cpp) |
 | 1526B | [I Hate 1111](https://codeforces.com/contest/1526/problem/B) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1526/B%20-%20I%20Hate%201111/solution.cpp) |
@@ -892,6 +894,7 @@
 | 1430C | [Numbers on Whiteboard](https://codeforces.com/contest/1430/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1430/C%20-%20Numbers%20on%20Whiteboard/solution.cpp) |
 | 1438B | [Valerii Against Everyone](https://codeforces.com/contest/1438/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1438/B%20-%20Valerii%20Against%20Everyone/solution.cpp) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.cpp) |
+| 1442A | [Extreme Subtraction](https://codeforces.com/contest/1442/problem/A) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1442/A%20-%20Extreme%20Subtraction/solution.cpp) |
 | 1443C | [The Delivery Dilemma](https://codeforces.com/contest/1443/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1443/C%20-%20The%20Delivery%20Dilemma/solution.cpp) |
 | 1445B | [Elimination](https://codeforces.com/contest/1445/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1445/B%20-%20Elimination/solution.cpp) |
 | 1447B | [Numbers Box](https://codeforces.com/contest/1447/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1447/B%20-%20Numbers%20Box/solution.cpp) |
