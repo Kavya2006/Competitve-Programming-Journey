@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 783 | 33 |
+| 784 | 33 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [brute force](#brute-force) (143)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (41)
-- [constructive algorithms](#constructive-algorithms) (152)
+- [constructive algorithms](#constructive-algorithms) (153)
 - [data structures](#data-structures) (55)
 - [dfs and similar](#dfs-and-similar) (26)
 - [divide and conquer](#divide-and-conquer) (4)
@@ -35,12 +35,12 @@
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
-- [math](#math) (356)
+- [math](#math) (357)
 - [number theory](#number-theory) (79)
 - [probabilities](#probabilities) (2)
 - [schedules](#schedules) (1)
 - [shortest paths](#shortest-paths) (7)
-- [sortings](#sortings) (90)
+- [sortings](#sortings) (91)
 - [strings](#strings) (44)
 - [ternary search](#ternary-search) (3)
 - [trees](#trees) (12)
@@ -422,6 +422,7 @@
 | 764B | [Timofey and cubes](https://codeforces.com/contest/764/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/764/B%20-%20Timofey%20and%20cubes/solution.cpp) |
 | 776B | [Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/776/B%20-%20Sherlock%20and%20his%20girlfriend/solution.cpp) |
 | 1081A | [Definite Game](https://codeforces.com/contest/1081/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1081/A%20-%20Definite%20Game/solution.cpp) |
+| 1110E | [Magic Stones](https://codeforces.com/contest/1110/problem/E) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/E%20-%20Magic%20Stones/solution.cpp) |
 | 1244E | [Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1244/E%20-%20Minimizing%20Difference/solution.cpp) |
 | 1312B | [Bogosort](https://codeforces.com/contest/1312/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1312/B%20-%20Bogosort/solution.cpp) |
 | 1401A | [Distance and Axis](https://codeforces.com/contest/1401/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1401/A%20-%20Distance%20and%20Axis/solution.cpp) |
@@ -1456,6 +1457,7 @@
 | 1096B | [Substring Removal](https://codeforces.com/contest/1096/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1096/B%20-%20Substring%20Removal/solution.cpp) |
 | 1101A | [Minimum Integer](https://codeforces.com/contest/1101/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1101/A%20-%20Minimum%20Integer/solution.cpp) |
 | 1110A | [Parity](https://codeforces.com/contest/1110/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/A%20-%20Parity/solution.cpp) |
+| 1110E | [Magic Stones](https://codeforces.com/contest/1110/problem/E) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/E%20-%20Magic%20Stones/solution.cpp) |
 | 1117B | [Emotes](https://codeforces.com/contest/1117/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1117/B%20-%20Emotes/solution.cpp) |
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
@@ -1895,6 +1897,7 @@
 | 843A | [Sorting by Subsequences](https://codeforces.com/contest/843/problem/A) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/843/A%20-%20Sorting%20by%20Subsequences/solution.cpp) |
 | 922D | [Robot Vacuum Cleaner](https://codeforces.com/contest/922/problem/D) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/922/D%20-%20Robot%20Vacuum%20Cleaner/solution.cpp) |
 | 977D | [Divide by three, multiply by two](https://codeforces.com/contest/977/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/977/D%20-%20Divide%20by%20three%2C%20multiply%20by%20two/solution.cpp) |
+| 1110E | [Magic Stones](https://codeforces.com/contest/1110/problem/E) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/E%20-%20Magic%20Stones/solution.cpp) |
 | 1117B | [Emotes](https://codeforces.com/contest/1117/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1117/B%20-%20Emotes/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
