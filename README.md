@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 789 | 33 |
+| 790 | 33 |
 
 ---
 
@@ -31,7 +31,7 @@
 - [geometry](#geometry) (11)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (19)
-- [greedy](#greedy) (314)
+- [greedy](#greedy) (315)
 - [hashing](#hashing) (3)
 - [implementation](#implementation) (222)
 - [interactive](#interactive) (4)
@@ -1173,6 +1173,7 @@
 | 2248D | [Good Pair Queries](https://codeforces.com/contest/2248/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2248/D%20-%20Good%20Pair%20Queries/solution.cpp) |
 | 2252C | [Risky Tower](https://codeforces.com/contest/2252/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/C%20-%20Risky%20Tower/solution.cpp) |
 | 2252D | [Array Replacement](https://codeforces.com/contest/2252/problem/D) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2252/D%20-%20Array%20Replacement/solution.cpp) |
+| 2253C | [Sum of Distinct Values in a Matrix](https://codeforces.com/contest/2253/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2253/C%20-%20Sum%20of%20Distinct%20Values%20in%20a%20Matrix/solution.cpp) |
 
 ### hashing
 
