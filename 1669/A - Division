@@ -1,17 +1,10 @@
-<h2><a href="https://codeforces.com/contest/1669/problem/A" target="_blank" rel="noopener noreferrer">1669A — Division?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | PyPy 3-64 |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 1669A](https://codeforces.com/contest/1669/problem/A) |
-
-## Topics
-`implementation`
-
----
-
-## Problem Statement
-
-<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">A. Division?</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Codeforces separates its users into $$$4$$$ divisions by their rating:</p><ul> <li> For Division 1: $$$1900 \leq \mathrm{rating}$$$ </li><li> For Division 2: $$$1600 \leq \mathrm{rating} \leq 1899$$$ </li><li> For Division 3: $$$1400 \leq \mathrm{rating} \leq 1599$$$ </li><li> For Division 4: $$$\mathrm{rating} \leq 1399$$$ </li></ul><p>Given a $$$\mathrm{rating}$$$, print in which division the $$$\mathrm{rating}$$$ belongs.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line of the input contains an integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) — the number of testcases.</p><p>The description of each test case consists of one line containing one integer $$$\mathrm{rating}$$$ ($$$-5000 \leq \mathrm{rating} \leq 5000$$$).</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, output a single line containing the correct division in the format "<span class="tex-font-style-tt">Division X</span>", where $$$X$$$ is an integer between $$$1$$$ and $$$4$$$ representing the division for the corresponding rating.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id009386772453683199" id="id0046600077128276707" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id009386772453683199"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">7</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">-789</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">1299</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">1300</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">1399</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">1400</div><div class="test-example-line test-example-line-even test-example-line-6" bis_skin_checked="1">1679</div><div class="test-example-line test-example-line-odd test-example-line-7" bis_skin_checked="1">2300</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0007203566726717447" id="id0040420392282807593" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0007203566726717447"><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">Division 4</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">Division 4</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">Division 4</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">Division 4</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">Division 3</div><div class="test-example-line test-example-line-even test-example-line-6" bis_skin_checked="1">Division 2</div><div class="test-example-line test-example-line-odd test-example-line-7" bis_skin_checked="1">Division 1</div></pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>For test cases $$$1-4$$$, the corresponding ratings are $$$-789$$$, $$$1299$$$, $$$1300$$$, $$$1399$$$, so all of them are in division $$$4$$$.</p><p>For the fifth test case, the corresponding rating is $$$1400$$$, so it is in division $$$3$$$.</p><p>For the sixth test case, the corresponding rating is $$$1679$$$, so it is in division $$$2$$$.</p><p>For the seventh test case, the corresponding rating is $$$2300$$$, so it is in division $$$1$$$.</p></div>
+for t in range(int(input())):
+ n=int(input())
+ if n<=1399 : 
+    print("Division 4")
+ elif n<=1599 : 
+    print("Division 3")
+ elif n<=1899 : 
+    print("Division 2")
+ else :
+     print("Division 1")         
