@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 956 | 35 |
+| 961 | 35 |
 
 ---
 
@@ -16,14 +16,14 @@
 - [Uncategorized](#uncategorized) (13)
 - [binary search](#binary-search) (91)
 - [bitmasks](#bitmasks) (53)
-- [brute force](#brute-force) (180)
+- [brute force](#brute-force) (181)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
-- [combinatorics](#combinatorics) (51)
+- [combinatorics](#combinatorics) (52)
 - [constructive algorithms](#constructive-algorithms) (184)
-- [data structures](#data-structures) (84)
+- [data structures](#data-structures) (85)
 - [dfs and similar](#dfs-and-similar) (33)
-- [divide and conquer](#divide-and-conquer) (6)
-- [dp](#dp) (126)
+- [divide and conquer](#divide-and-conquer) (7)
+- [dp](#dp) (129)
 - [dsu](#dsu) (15)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -32,16 +32,16 @@
 - [geometry](#geometry) (15)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (23)
-- [greedy](#greedy) (396)
+- [greedy](#greedy) (398)
 - [hashing](#hashing) (8)
 - [implementation](#implementation) (259)
-- [interactive](#interactive) (4)
-- [math](#math) (434)
-- [number theory](#number-theory) (110)
+- [interactive](#interactive) (5)
+- [math](#math) (436)
+- [number theory](#number-theory) (111)
 - [probabilities](#probabilities) (3)
 - [schedules](#schedules) (3)
 - [shortest paths](#shortest-paths) (8)
-- [sortings](#sortings) (129)
+- [sortings](#sortings) (131)
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (60)
 - [ternary search](#ternary-search) (4)
@@ -270,6 +270,7 @@
 | 1017D | [The Wu](https://codeforces.com/contest/1017/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1017/D%20-%20The%20Wu/solution.cpp) |
 | 1130C | [Connect](https://codeforces.com/contest/1130/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1130/C%20-%20Connect/solution.cpp) |
 | 1167A | [Telephone Number](https://codeforces.com/contest/1167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/A%20-%20Telephone%20Number/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1200E | [Compress Words](https://codeforces.com/contest/1200/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1200/E%20-%20Compress%20Words/solution.cpp) |
 | 1236A | [Stones](https://codeforces.com/contest/1236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1236/A%20-%20Stones/solution.cpp) |
 | 1250F | [Data Center](https://codeforces.com/contest/1250/problem/F) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1250/F%20-%20Data%20Center/solution.cpp) |
@@ -434,6 +435,7 @@
 | 272D | [Dima and Two Sequences](https://codeforces.com/contest/272/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/272/D%20-%20Dima%20and%20Two%20Sequences/solution.cpp) |
 | 300C | [Beautiful Numbers](https://codeforces.com/contest/300/problem/C) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/300/C%20-%20Beautiful%20Numbers/solution.cpp) |
 | 322B | [Ciel and Flowers](https://codeforces.com/contest/322/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/322/B%20-%20Ciel%20and%20Flowers/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 478B | [Random Teams](https://codeforces.com/contest/478/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/478/B%20-%20Random%20Teams/solution.cpp) |
@@ -700,6 +702,7 @@
 | 1237B | [Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1237/B%20-%20Balanced%20Tunnel/solution.cpp) |
 | 1313C1 | [Skyscrapers (easy version)](https://codeforces.com/contest/1313/problem/C1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C1%20-%20Skyscrapers%20(easy%20version)/solution.cpp) |
 | 1313C2 | [Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C2%20-%20Skyscrapers%20(hard%20version)/solution.cpp) |
+| 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1333C | [Eugene and an array](https://codeforces.com/contest/1333/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1333/C%20-%20Eugene%20and%20an%20array/solution.cpp) |
 | 1364A | [XXXXX](https://codeforces.com/contest/1364/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1364/A%20-%20XXXXX/solution.cpp) |
@@ -801,6 +804,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1177B | [Digits Sequence (Hard Edition)](https://codeforces.com/contest/1177/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1177/B%20-%20Digits%20Sequence%20(Hard%20Edition)/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
 | 1676H2 | [Maximum Crossings (Hard Version)](https://codeforces.com/contest/1676/problem/H2) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1676/H2%20-%20Maximum%20Crossings%20(Hard%20Version)/solution.cpp) |
@@ -818,6 +822,7 @@
 | 313B | [Ilya and Queries](https://codeforces.com/contest/313/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/313/B%20-%20Ilya%20and%20Queries/solution.cpp) |
 | 327A | [Flipping Game](https://codeforces.com/contest/327/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/327/A%20-%20Flipping%20Game/solution.cpp) |
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 431C | [k-Tree](https://codeforces.com/contest/431/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/431/C%20-%20k-Tree/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
 | 467C | [George and Job](https://codeforces.com/contest/467/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/467/C%20-%20George%20and%20Job/solution.cpp) |
@@ -844,12 +849,14 @@
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.cpp) |
 | 1187E | [Tree Painting](https://codeforces.com/contest/1187/problem/E) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1187/E%20-%20Tree%20Painting/solution.cpp) |
 | 1189C | [Candies!](https://codeforces.com/contest/1189/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1189/C%20-%20Candies!/solution.cpp) |
+| 1195C | [Basketball Exercise](https://codeforces.com/contest/1195/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1195/C%20-%20Basketball%20Exercise/solution.cpp) |
 | 1206B | [Make Product Equal One](https://codeforces.com/contest/1206/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1206/B%20-%20Make%20Product%20Equal%20One/solution.cpp) |
 | 1245C | [Constanze's Machine](https://codeforces.com/contest/1245/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1245/C%20-%20Constanze's%20Machine/solution.cpp) |
 | 1272C | [Yet Another Broken Keyboard](https://codeforces.com/contest/1272/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1272/C%20-%20Yet%20Another%20Broken%20Keyboard/solution.cpp) |
 | 1285B | [Just Eat It!](https://codeforces.com/contest/1285/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1285/B%20-%20Just%20Eat%20It!/solution.cpp) |
 | 1313C1 | [Skyscrapers (easy version)](https://codeforces.com/contest/1313/problem/C1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C1%20-%20Skyscrapers%20(easy%20version)/solution.cpp) |
 | 1313C2 | [Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C2%20-%20Skyscrapers%20(hard%20version)/solution.cpp) |
+| 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.cpp) |
 | 1350B | [Orac and Models](https://codeforces.com/contest/1350/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1350/B%20-%20Orac%20and%20Models/solution.cpp) |
 | 1382B | [Sequential Nim](https://codeforces.com/contest/1382/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1382/B%20-%20Sequential%20Nim/solution.cpp) |
@@ -1094,6 +1101,7 @@
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1166A | [Silent Classroom](https://codeforces.com/contest/1166/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1166/A%20-%20Silent%20Classroom/solution.cpp) |
 | 1167A | [Telephone Number](https://codeforces.com/contest/1167/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/A%20-%20Telephone%20Number/solution.cpp) |
+| 1183D | [Candy Box (easy version)](https://codeforces.com/contest/1183/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1183/D%20-%20Candy%20Box%20(easy%20version)/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1204B | [Mislove Has Lost an Array](https://codeforces.com/contest/1204/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1204/B%20-%20Mislove%20Has%20Lost%20an%20Array/solution.cpp) |
 | 1236A | [Stones](https://codeforces.com/contest/1236/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1236/A%20-%20Stones/solution.cpp) |
@@ -1105,6 +1113,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1313C1 | [Skyscrapers (easy version)](https://codeforces.com/contest/1313/problem/C1) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C1%20-%20Skyscrapers%20(easy%20version)/solution.cpp) |
 | 1313C2 | [Skyscrapers (hard version)](https://codeforces.com/contest/1313/problem/C2) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1313/C2%20-%20Skyscrapers%20(hard%20version)/solution.cpp) |
+| 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1335C | [Two Teams Composing](https://codeforces.com/contest/1335/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1335/C%20-%20Two%20Teams%20Composing/solution.cpp) |
 | 1338A | [Powered Addition](https://codeforces.com/contest/1338/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1338/A%20-%20Powered%20Addition/solution.cpp) |
 | 1362C | [Johnny and Another Rating Drop](https://codeforces.com/contest/1362/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1362/C%20-%20Johnny%20and%20Another%20Rating%20Drop/solution.cpp) |
@@ -1743,6 +1752,7 @@
 |---|---------|------------|----------|
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 755C | [PolandBall and Forest](https://codeforces.com/contest/755/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/755/C%20-%20PolandBall%20and%20Forest/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1505A | [Is it rated - 2](https://codeforces.com/contest/1505/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1505/A%20-%20Is%20it%20rated%20-%202/solution.cpp) |
 | 1556D | [Take a Guess](https://codeforces.com/contest/1556/problem/D) | 1800 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1556/D%20-%20Take%20a%20Guess/solution.cpp) |
 
@@ -1806,6 +1816,7 @@
 | 1110A | [Parity](https://codeforces.com/contest/1110/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/A%20-%20Parity/solution.cpp) |
 | 1110E | [Magic Stones](https://codeforces.com/contest/1110/problem/E) | 2200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1110/E%20-%20Magic%20Stones/solution.cpp) |
 | 1117B | [Emotes](https://codeforces.com/contest/1117/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1117/B%20-%20Emotes/solution.cpp) |
+| 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.cpp) |
 | 1189C | [Candies!](https://codeforces.com/contest/1189/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1189/C%20-%20Candies!/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
@@ -1818,6 +1829,7 @@
 | 1285A | [Mezo Playing Zoma](https://codeforces.com/contest/1285/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1285/A%20-%20Mezo%20Playing%20Zoma/solution.cpp) |
 | 1291A | [Even But Not Even](https://codeforces.com/contest/1291/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1291/A%20-%20Even%20But%20Not%20Even/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1334A | [Level Statistics](https://codeforces.com/contest/1334/problem/A) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1334/A%20-%20Level%20Statistics/solution.cpp) |
 | 1338A | [Powered Addition](https://codeforces.com/contest/1338/problem/A) | 1500 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1338/A%20-%20Powered%20Addition/solution.cpp) |
 | 1339A | [Filling Diamonds](https://codeforces.com/contest/1339/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1339/A%20-%20Filling%20Diamonds/solution.cpp) |
@@ -2194,6 +2206,7 @@
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 237C | [Primes on Interval](https://codeforces.com/contest/237/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/237/C%20-%20Primes%20on%20Interval/solution.cpp) |
 | 313A | [Ilya and Bank Account](https://codeforces.com/contest/313/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/313/A%20-%20Ilya%20and%20Bank%20Account/solution.cpp) |
+| 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 474F | [Ant colony](https://codeforces.com/contest/474/problem/F) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/474/F%20-%20Ant%20colony/solution.cpp) |
 | 584D | [Dima and Lisa](https://codeforces.com/contest/584/problem/D) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/584/D%20-%20Dima%20and%20Lisa/solution.cpp) |
 | 632D | [Longest Subsequence](https://codeforces.com/contest/632/problem/D) | 2100 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/632/D%20-%20Longest%20Subsequence/solution.cpp) |
@@ -2351,10 +2364,12 @@
 | 1117B | [Emotes](https://codeforces.com/contest/1117/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1117/B%20-%20Emotes/solution.cpp) |
 | 1119B | [Alyona and a Narrow Fridge](https://codeforces.com/contest/1119/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1119/B%20-%20Alyona%20and%20a%20Narrow%20Fridge/solution.cpp) |
 | 1155A | [Reverse a Substring](https://codeforces.com/contest/1155/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1155/A%20-%20Reverse%20a%20Substring/solution.cpp) |
+| 1183D | [Candy Box (easy version)](https://codeforces.com/contest/1183/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1183/D%20-%20Candy%20Box%20(easy%20version)/solution.cpp) |
 | 1201C | [Maximum Median](https://codeforces.com/contest/1201/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1201/C%20-%20Maximum%20Median/solution.cpp) |
 | 1237B | [Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1237/B%20-%20Balanced%20Tunnel/solution.cpp) |
 | 1244E | [Minimizing Difference](https://codeforces.com/contest/1244/problem/E) | 2000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1244/E%20-%20Minimizing%20Difference/solution.cpp) |
 | 1312B | [Bogosort](https://codeforces.com/contest/1312/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1312/B%20-%20Bogosort/solution.cpp) |
+| 1320A | [Journey Planning](https://codeforces.com/contest/1320/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1320/A%20-%20Journey%20Planning/solution.cpp) |
 | 1324D | [Pair of Topics](https://codeforces.com/contest/1324/problem/D) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1324/D%20-%20Pair%20of%20Topics/solution.cpp) |
 | 1335C | [Two Teams Composing](https://codeforces.com/contest/1335/problem/C) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1335/C%20-%20Two%20Teams%20Composing/solution.cpp) |
 | 1374D | [Zero Remainder Array](https://codeforces.com/contest/1374/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1374/D%20-%20Zero%20Remainder%20Array/solution.cpp) |
