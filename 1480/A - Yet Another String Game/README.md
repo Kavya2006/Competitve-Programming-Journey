@@ -1,0 +1,24 @@
+<h2><a href="https://codeforces.com/contest/1480/problem/A" target="_blank" rel="noopener noreferrer">1480A — Yet Another String Game</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1480A](https://codeforces.com/contest/1480/problem/A) |
+
+## Topics
+`games` `greedy` `strings`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">A. Yet Another String Game</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>2 seconds</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>512 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Homer has two friends Alice and Bob. Both of them are string fans. </p><p>One day, Alice and Bob decide to play a game on a string $$$s = s_1 s_2 \dots s_n$$$ of length $$$n$$$ consisting of lowercase English letters. They move in turns alternatively and <span class="tex-font-style-bf">Alice makes the first move</span>.</p><p>In a move, a player <span class="tex-font-style-bf">must</span> choose an index $$$i$$$ ($$$1 \leq i \leq n$$$) that has not been chosen before, and change $$$s_i$$$ to any other lowercase English letter $$$c$$$ that $$$c \neq s_i$$$.</p><p>When all indices have been chosen, the game ends. </p><p>The goal of Alice is to make the final string lexicographically as small as possible, while the goal of Bob is to make the final string lexicographically as large as possible. Both of them are game experts, so they always play games optimally. Homer is not a game expert, so he wonders what the final string will be.</p><p>A string $$$a$$$ is lexicographically smaller than a string $$$b$$$ if and only if one of the following holds: </p><ul> <li> $$$a$$$ is a prefix of $$$b$$$, but $$$a \ne b$$$; </li><li> in the first position where $$$a$$$ and $$$b$$$ differ, the string $$$a$$$ has a letter that appears earlier in the alphabet than the corresponding letter in $$$b$$$. </li></ul></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>Each test contains multiple test cases. The first line contains $$$t$$$ ($$$1 \le t \le 1000$$$)  — the number of test cases. Description of the test cases follows.</p><p>The only line of each test case contains a single string $$$s$$$ ($$$1 \leq |s| \leq 50$$$) consisting of lowercase English letters.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, print the final string in a single line.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id0048355377094685736" id="id0011063088783085628" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0048355377094685736">3
+a
+bbbb
+az
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0028328929929531876" id="id003306497856195234" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0028328929929531876">b
+azaz
+by
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case: Alice makes the first move and must change the only letter to a different one, so she changes it to '<span class="tex-font-style-tt">b</span>'.</p><p>In the second test case: Alice changes the first letter to '<span class="tex-font-style-tt">a</span>', then Bob changes the second letter to '<span class="tex-font-style-tt">z</span>', Alice changes the third letter to '<span class="tex-font-style-tt">a</span>' and then Bob changes the fourth letter to '<span class="tex-font-style-tt">z</span>'.</p><p>In the third test case: Alice changes the first letter to '<span class="tex-font-style-tt">b</span>', and then Bob changes the second letter to '<span class="tex-font-style-tt">y</span>'.</p></div>
