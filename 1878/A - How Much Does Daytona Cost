@@ -1,47 +1,24 @@
-#include <bits/stdc++.h>
-using namespace std;
- 
-// Types
-using ll  = long long;
-using ull = unsigned long long;
-using ld  = long double;
- 
-// Shortcuts
-#define pb      push_back
-#define all(x)  begin(x), end(x)
-#define rall(x) rbegin(x), rend(x)
-#define sz(x)   (int)((x).size())
- 
-// Common containers
-using vi  = vector<int>;
-using vll = vector<ll>;
-using pii = pair<int,int>;
-using pll = pair<ll,ll>;
-using vpi = vector<pii>;
- 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int t; cin>>t;
-     int n; long  k; 
-     
-   
-    while(t--){
-int count=0;
-    cin>>n; cin>>k;
-    vector<int>a(n);
-    for(int i=0 ; i<n ; i++){
-        cin>>a[i];
-        if (a[i]==k){
-            count++;
-        }
-    }
-    if (count ==0){
-        cout<<"NO"<<endl;
-    }
-    else cout<<"YES"<<endl;
-    }
-    
- 
-return 0;
-}
+<h2><a href="https://codeforces.com/contest/1878/problem/A" target="_blank" rel="noopener noreferrer">1878A — How Much Does Daytona Cost?</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++17 (GCC 7-32) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1878A](https://codeforces.com/contest/1878/problem/A) |
+
+## Topics
+`greedy`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">A. How Much Does Daytona Cost?</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>We define an integer to be <span class="tex-font-style-it">the most common</span> on a subsegment, if its number of occurrences on that subsegment is larger than the number of occurrences of any other integer in that subsegment. A subsegment of an array is a consecutive segment of elements in the array $$$a$$$.</p><p>Given an array $$$a$$$ of size $$$n$$$, and an integer $$$k$$$, determine if there exists a non-empty subsegment of $$$a$$$ where $$$k$$$ is <span class="tex-font-style-it">the most common element</span>.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>Each test consists of multiple test cases. The first line contains a single integer $$$t$$$ ($$$1 \le t \le 1000$$$) — the number of test cases. The description of test cases follows.</p><p>The first line of each test case contains two integers $$$n$$$ and $$$k$$$ ($$$1 \le n \le 100$$$, $$$1 \le k \le 100$$$) — the number of elements in array and the element which must be <span class="tex-font-style-it">the most common</span>.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1$$$, $$$a_2$$$, $$$a_3$$$, $$$\dots$$$, $$$a_n$$$ ($$$1 \le a_i \le 100$$$) — elements of the array.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case output "<span class="tex-font-style-tt">YES</span>" if there exists a subsegment in which $$$k$$$ is <span class="tex-font-style-it">the most common</span> element, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You can output the answer in any case (for example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>", and "<span class="tex-font-style-tt">YES</span>" will be recognized as a positive answer).</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id003686301299002508" id="id009196746709930839" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id003686301299002508"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">7</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">5 4</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">1 4 3 4 1</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">4 1</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">2 3 4 4</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">5 6</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">43 5 60 4 2</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">2 5</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">1 5</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">4 1</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">5 3 3 1</div><div class="test-example-line test-example-line-even test-example-line-6" bis_skin_checked="1">1 3</div><div class="test-example-line test-example-line-even test-example-line-6" bis_skin_checked="1">3</div><div class="test-example-line test-example-line-odd test-example-line-7" bis_skin_checked="1">5 3</div><div class="test-example-line test-example-line-odd test-example-line-7" bis_skin_checked="1">3 4 1 5 5</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id008943222969565756" id="id007497921567261028" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id008943222969565756">YES
+NO
+NO
+YES
+YES
+YES
+YES
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case we need to check if there is a subsegment where the <span class="tex-font-style-it">most common element</span> is $$$4$$$.</p><p>On the subsegment $$$[2,5]$$$ the elements are $$$4, \ 3, \ 4, \ 1$$$. </p><ul><li> $$$4$$$ appears $$$2$$$ times;</li><li> $$$1$$$ appears $$$1$$$ time;</li><li> $$$3$$$ appears $$$1$$$ time.</li></ul><p>This means that $$$4$$$ is the <span class="tex-font-style-it">most common element</span> on the subsegment $$$[2, 5]$$$, so there exists a subsegment where $$$4$$$ is the <span class="tex-font-style-it">most common element</span>.</p></div>
