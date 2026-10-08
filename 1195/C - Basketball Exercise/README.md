@@ -1,0 +1,29 @@
+<h2><a href="https://codeforces.com/contest/1195/problem/C" target="_blank" rel="noopener noreferrer">1195C — Basketball Exercise</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1195C](https://codeforces.com/contest/1195/problem/C) |
+
+## Topics
+`dp`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">C. Basketball Exercise</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>2 seconds</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Finally, a basketball court has been opened in SIS, so Demid has decided to hold a basketball exercise session. $$$2 \cdot n$$$ students have come to Demid's exercise session, and he lined up them into two rows of the same size (there are exactly $$$n$$$ people in each row). Students are numbered from $$$1$$$ to $$$n$$$ in each row in order from left to right.</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/d86d754d6d2d8028a5014de45c1921110ba0b6dd.png" style="zoom: 75.0%;max-width: 100.0%;max-height: 100.0%;"> </center><p>Now Demid wants to choose a team to play basketball. He will choose players from left to right, and the index of each chosen player (excluding the first one <span class="tex-font-style-bf">taken</span>) will be strictly greater than the index of the previously chosen player. To avoid giving preference to one of the rows, Demid chooses students in such a way that no consecutive chosen students belong to the same row. The first student can be chosen among all $$$2n$$$ students (there are no additional constraints), and a team can consist of any number of students. </p><p>Demid thinks, that in order to compose a perfect team, he should choose students in such a way, that the total height of all chosen students is maximum possible. Help Demid to find the maximum possible total height of players in a team he can choose.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line of the input contains a single integer $$$n$$$ ($$$1 \le n \le 10^5$$$) — the number of students in each row.</p><p>The second line of the input contains $$$n$$$ integers $$$h_{1, 1}, h_{1, 2}, \ldots, h_{1, n}$$$ ($$$1 \le h_{1, i} \le 10^9$$$), where $$$h_{1, i}$$$ is the height of the $$$i$$$-th student in the first row.</p><p>The third line of the input contains $$$n$$$ integers $$$h_{2, 1}, h_{2, 2}, \ldots, h_{2, n}$$$ ($$$1 \le h_{2, i} \le 10^9$$$), where $$$h_{2, i}$$$ is the height of the $$$i$$$-th student in the second row.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>Print a single integer — the maximum possible total height of players in a team Demid can choose.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Examples</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id006626694936643989" id="id00045032044967034834" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id006626694936643989">5
+9 3 5 7 3
+5 8 1 4 5
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id00762548478340977" id="id006404298202294133" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id00762548478340977">29
+</pre></div><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id0014381500995365004" id="id0023138444267351" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0014381500995365004">3
+1 2 9
+10 1 1
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id008311293217824057" id="id009316970965214662" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id008311293217824057">19
+</pre></div><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id008978266649388156" id="id0018616297967620432" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id008978266649388156">1
+7
+4
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0021676809988685253" id="id0026998750931221793" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0021676809988685253">7
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first example Demid can choose the following team as follows: </p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/4e91cbc6d188bea6a651a3ee663b4842b5a853d6.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>In the second example Demid can choose the following team as follows: </p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/05e00446ce2bc15b43dee54633824f909a6e8695.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div>
