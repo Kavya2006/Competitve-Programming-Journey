@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/1850/problem/A" target="_blank" rel="noopener noreferrer">1850A — To My Critics</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | Python 3 |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1850A](https://codeforces.com/contest/1850/problem/A) |
+
+## Topics
+`implementation` `sortings`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">A. To My Critics</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Suneet has three digits $$$a$$$, $$$b$$$, and $$$c$$$. </p><p>Since math isn't his strongest point, he asks you to determine if you can choose any two digits to make a sum greater or equal to $$$10$$$.</p><p>Output "<span class="tex-font-style-tt">YES</span>" if there is such a pair, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \leq t \leq 1000$$$) — the number of test cases.</p><p>The only line of each test case contains three digits $$$a$$$, $$$b$$$, $$$c$$$ ($$$0 \leq a, b, c \leq 9$$$).</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, output "<span class="tex-font-style-tt">YES</span>" if such a pair exists, and "<span class="tex-font-style-tt">NO</span>" otherwise.</p><p>You can output the answer in any case (for example, the strings "<span class="tex-font-style-tt">yEs</span>", "<span class="tex-font-style-tt">yes</span>", "<span class="tex-font-style-tt">Yes</span>" and "<span class="tex-font-style-tt">YES</span>" will be recognized as a positive answer).</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id009697546275017542" id="id0039766625843550973" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id009697546275017542"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">5</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">8 1 2</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">4 4 5</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">9 9 9</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">0 0 0</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">8 5 3</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0011104223400780444" id="id0007558774864614914" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0011104223400780444">YES
+NO
+YES
+NO
+YES
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>For the first test case, by choosing the digits $$$8$$$ and $$$2$$$ we can obtain a sum of $$$8 + 2 = 10$$$ which satisfies the condition, thus the output should be "<span class="tex-font-style-tt">YES</span>".</p><p>For the second test case, any combination of chosen digits won't be at least $$$10$$$, thus the output should be "<span class="tex-font-style-tt">NO</span>" (note that we can not choose the digit on the same position twice).</p><p>For the third test case, any combination of chosen digits will have a sum equal to $$$18$$$, thus the output should be "<span class="tex-font-style-tt">YES</span>".</p></div>
