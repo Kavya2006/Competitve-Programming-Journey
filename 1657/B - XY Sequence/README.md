@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/1657/problem/B" target="_blank" rel="noopener noreferrer">1657B — XY Sequence</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 800 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1657B](https://codeforces.com/contest/1657/problem/B) |
+
+## Topics
+`greedy`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">B. XY Sequence</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>2 seconds</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>You are given four integers $$$n$$$, $$$B$$$, $$$x$$$ and $$$y$$$. You should build a sequence $$$a_0, a_1, a_2, \dots, a_n$$$ where $$$a_0 = 0$$$ and for each $$$i \ge 1$$$ you can choose: </p><ul> <li> either $$$a_i = a_{i - 1} + x$$$ </li><li> or $$$a_i = a_{i - 1} - y$$$. </li></ul><p>Your goal is to build such a sequence $$$a$$$ that $$$a_i \le B$$$ for all $$$i$$$ and $$$\sum\limits_{i=0}^{n}{a_i}$$$ is maximum possible.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line contains a single integer $$$t$$$ ($$$1 \le t \le 10^4$$$) — the number of test cases. Next $$$t$$$ cases follow.</p><p>The first and only line of each test case contains four integers $$$n$$$, $$$B$$$, $$$x$$$ and $$$y$$$ ($$$1 \le n \le 2 \cdot 10^5$$$; $$$1 \le B, x, y \le 10^9$$$).</p><p>It's guaranteed that the total sum of $$$n$$$ doesn't exceed $$$2 \cdot 10^5$$$.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, print one integer — the maximum possible $$$\sum\limits_{i=0}^{n}{a_i}$$$.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id007957612969124453" id="id008268916442983658" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id007957612969124453"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">3</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">5 100 1 30</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">7 1000000000 1000000000 1000000000</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">4 1 7 3</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0010591750068251327" id="id0014298501779374428" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0010591750068251327">15
+4000000000
+-10
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case, the optimal sequence $$$a$$$ is $$$[0, 1, 2, 3, 4, 5]$$$.</p><p>In the second test case, the optimal sequence $$$a$$$ is $$$[0, 10^9, 0, 10^9, 0, 10^9, 0, 10^9]$$$.</p><p>In the third test case, the optimal sequence $$$a$$$ is $$$[0, -3, -6, 1, -2]$$$.</p></div>
