@@ -1,0 +1,20 @@
+<h2><a href="https://codeforces.com/contest/2020/problem/C" target="_blank" rel="noopener noreferrer">2020C — Bitwise Balancing</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1400 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2020C](https://codeforces.com/contest/2020/problem/C) |
+
+## Topics
+`bitmasks` `hashing` `implementation` `math` `schedules` `ternary search`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">C. Bitwise Balancing</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>2 seconds</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>You are given three non-negative integers $$$b$$$, $$$c$$$, and $$$d$$$.</p><p>Please find a non-negative integer $$$a \in [0, 2^{61}]$$$ such that $$$(a\, |\, b)-(a\, \&\, c)=d$$$, where $$$|$$$ and $$$\&$$$ denote the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#OR">bitwise OR operation</a> and the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#AND">bitwise AND operation</a>, respectively.</p><p>If such an $$$a$$$ exists, print its value. If there is no solution, print a single integer $$$-1$$$. If there are multiple solutions, print any of them.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>Each test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1 \le t \le 10^5$$$). The description of the test cases follows.</p><p>The only line of each test case contains three positive integers $$$b$$$, $$$c$$$, and $$$d$$$ ($$$0 \le b, c, d \le 10^{18}$$$).</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, output the value of $$$a$$$, or $$$-1$$$ if there is no solution. Please note that $$$a$$$ must be non-negative and cannot exceed $$$2^{61}$$$.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id008109116263145956" id="id0020205144773532868" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id008109116263145956"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">3</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">2 2 2</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">4 2 6</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">10 2 14</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0016268288172943168" id="id0006974753276199441" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0016268288172943168">0
+-1
+12
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case, $$$(0\,|\,2)-(0\,\&\,2)=2-0=2$$$. So, $$$a = 0$$$ is a correct answer.</p><p>In the second test case, no value of $$$a$$$ satisfies the equation.</p><p>In the third test case, $$$(12\,|\,10)-(12\,\&\,2)=14-0=14$$$. So, $$$a = 12$$$ is a correct answer.</p></div>
