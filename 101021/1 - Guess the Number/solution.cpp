@@ -148,91 +148,46 @@ bool Compare(pair<ll,ll>p1 , pair<ll,ll>p2 ){
 bool CompAre (pair<ll,ll>p1 , pair<ll,ll>p2 ){
     return p1.second<p2.second;
 }
-const int MAXN = 1e6+5; 
-vector<ll> spf(MAXN + 1);
- 
-void compute_spf() { // taken from my notes directly
-    spf[1]=0; //1 is not prime;
-    for (int i = 2 ; i <= MAXN; i++)
-        spf[i] = i;
- 
-    for (int i = 2; i * i <= MAXN; i++) {
-        if (spf[i] == i) { // i is prime
-            for (int j = i * i; j <= MAXN; j += i) {
-                if (spf[j] == j)
-                    spf[j] = i;
-            }
-        }
-    }
-}
- 
- 
 void Solve(){
 ll n; cin>>n;
 vector<ll>a(n);
-vector<ll>b(n);
-vector<ll>spff(n);
-vector<ll>duplicate(n);
-vector<ll>duplicate1(n);
-for(int i=0 ; i<n ; i++){
-    cin>>a[i];
-    b[i]=a[i];
-    spff[i]=a[i];
-    duplicate[i]=spf[a[i]];
-    duplicate1[i]=spf[a[i]];
-    
-}
-sort(b.begin(),b.end());
-if(b==a){
-    cout<<"Bob
-";
-    return;
-}
+vector<ll>ans(n);
 for(ll i=0 ; i<n ; i++){
-     vector<ll>c;
-while(spff[i]>1){
-       ll p=spf[spff[i]];
-        if(spff[i]%p==0){
-            c.push_back(p);
-            if(c.size()>=2){
-                cout<<"Alice
-";
-                return;
-            }
-            while(spff[i]%p==0){
-                spff[i]=spff[i]/p;
-            }
-        }
+    cin>>ans[i];
+}
+ 
+sort(ans.begin(),ans.end());
+ 
+ll start=0;
+for(ll i=1 ; i<n ; i+=2 ){
+a[i]=ans[start];
+start++;
+}
+ll end=n-1;
+for(ll i=0 ; i<n ; i+=2){
+    a[i]=ans[start];
+    start++;
+   
+}
+ll anss=0;
+for(ll i=1 ; i<n-1; i++){
+    if(a[i]<a[i-1] && a[i]<a[i+1]){
+        anss++;
     }
- 
 }
-sort(duplicate1.begin(),duplicate1.end());
-if(duplicate==duplicate1){
-    cout<<"Bob
-";
-    return;
+cout<<anss<<endl;
+for(auto &i : a){
+    cout<<i<<" ";
 }
-cout<<"Alice
-";
-return;
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+cout<<endl;
  
 }
  
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    compute_spf();
-    ll t=1; cin>>t;
+   
+    ll t=1; // cin>>t;
   while(t--){
  Solve();
  }
