@@ -1,0 +1,30 @@
+<h2><a href="https://codeforces.com/contest/1982/problem/B" target="_blank" rel="noopener noreferrer">1982B — Collatz Conjecture</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1982B](https://codeforces.com/contest/1982/problem/B) |
+
+## Topics
+`brute force` `implementation` `math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">B. Collatz Conjecture</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Recently, the first-year student Maxim learned about the Collatz conjecture, but he didn't pay much attention during the lecture, so he believes that the following process is mentioned in the conjecture:</p><p>There is a variable $$$x$$$ and a constant $$$y$$$. The following operation is performed $$$k$$$ times: </p><ul> <li> increase $$$x$$$ by $$$1$$$, then </li><li> while the number $$$x$$$ is divisible by $$$y$$$, divide it by $$$y$$$. </li></ul> Note that both of these actions are performed sequentially within one operation.<p>For example, if the number $$$x = 16$$$, $$$y = 3$$$, and $$$k = 2$$$, then after one operation $$$x$$$ becomes $$$17$$$, and after another operation $$$x$$$ becomes $$$2$$$, because after adding one, $$$x = 18$$$ is divisible by $$$3$$$ twice.</p><p>Given the initial values of $$$x$$$, $$$y$$$, and $$$k$$$, Maxim wants to know what is the final value of $$$x$$$.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>Each test consists of multiple test cases. The first line contains an integer $$$t$$$ ($$$1 \le t \le 10^{4}$$$) — the number of test cases. Then follows the description of the test cases.</p><p>The only line of each test case contains three integers $$$x$$$, $$$y$$$, and $$$k$$$ ($$$1 \le x, k \le 10^{9}$$$, $$$2 \le y \le 10^{9}$$$) — the initial variable, constant and the number of operations.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, output a single integer — the number obtained after applying $$$k$$$ operations.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id005000741326600275" id="id008233381959226845" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id005000741326600275"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">13</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">1 3 1</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">2 3 1</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">24 5 5</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">16 3 2</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">2 2 1</div><div class="test-example-line test-example-line-even test-example-line-6" bis_skin_checked="1">1337 18 1</div><div class="test-example-line test-example-line-odd test-example-line-7" bis_skin_checked="1">1 2 144133</div><div class="test-example-line test-example-line-even test-example-line-8" bis_skin_checked="1">12345678 3 10</div><div class="test-example-line test-example-line-odd test-example-line-9" bis_skin_checked="1">998244353 2 998244353</div><div class="test-example-line test-example-line-even test-example-line-10" bis_skin_checked="1">998244353 123456789 998244352</div><div class="test-example-line test-example-line-odd test-example-line-11" bis_skin_checked="1">998244354 998241111 998244352</div><div class="test-example-line test-example-line-even test-example-line-12" bis_skin_checked="1">998244355 2 9982443</div><div class="test-example-line test-example-line-odd test-example-line-13" bis_skin_checked="1">1000000000 1000000000 1000000000</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id006858276184072245" id="id009927443780308414" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id006858276184072245">2
+1
+1
+2
+3
+1338
+1
+16936
+1
+21180097
+6486
+1
+2
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case, there is only one operation applied to $$$x = 1$$$, resulting in $$$x$$$ becoming $$$2$$$.</p><p>In the second test case, for $$$x = 2$$$, within one operation, one is added to $$$x$$$ and it's divided by $$$y = 3$$$, resulting in $$$x$$$ becoming $$$1$$$.</p><p>In the third test case, $$$x$$$ changes as follows:</p><ul> <li> After the first operation, $$$x = 1$$$, because $$$24 + 1 = 25$$$ and $$$25$$$ is divisible by $$$y = 5$$$ twice within one operation. </li><li> After the second operation, $$$x = 2$$$. </li><li> After the third operation, $$$x = 3$$$. </li><li> After the fourth operation, $$$x = 4$$$. </li><li> After the fifth operation, $$$x = 1$$$. </li></ul></div>
