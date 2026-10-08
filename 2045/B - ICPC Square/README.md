@@ -1,0 +1,21 @@
+<h2><a href="https://codeforces.com/contest/2045/problem/B" target="_blank" rel="noopener noreferrer">2045B — ICPC Square</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 2000 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2045B](https://codeforces.com/contest/2045/problem/B) |
+
+## Topics
+`math` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">B. ICPC Square</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>1024 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>ICPC Square is a hotel provided by the ICPC Committee for the accommodation of the participants. It consists of $$$N$$$ floors (numbered from $$$1$$$ to $$$N$$$). This hotel has a very unique elevator. If a person is currently at floor $$$x$$$, by riding the elevator once, they can go to floor $$$y$$$ if and only if $$$y$$$ is a multiple of $$$x$$$ and $$$y - x \leq D$$$.</p><p>You are currently at floor $$$S$$$. You want to go to the highest possible floor by riding the elevator zero or more times. Determine the highest floor you can reach.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>A single line consisting of three integers $$$N$$$ $$$D$$$ $$$S$$$ ($$$2 \leq N \leq 10^{12}; 1 \leq D \leq N - 1; 1 \leq S \leq N$$$).</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>Output a single integer representing the highest floor you can reach by riding the elevator zero or more times.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Examples</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id003913454933376349" id="id008495522328939925" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id003913454933376349">64 35 3
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id005181290168355186" id="id009976380339518957" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id005181290168355186">60
+</pre></div><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id002600020367871829" id="id0015429024935987556" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id002600020367871829">2024 2023 1273
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id0003709088323658438" id="id003026187513630242" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id0003709088323658438">1273
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p><span class="tex-font-style-it">Explanation for the sample input/output #1</span></p><p>First, ride the elevator from floor $$$3$$$ to floor $$$15$$$. This is possible because $$$15$$$ is a multiple of $$$3$$$ and $$$15 - 3 \leq 35$$$. Then, ride the elevator from floor $$$15$$$ to floor $$$30$$$. This is possible because $$$30$$$ is a multiple of $$$15$$$ and $$$30 - 15 \leq 35$$$. Finally, ride the elevator from floor $$$30$$$ to floor $$$60$$$. This is possible because $$$60$$$ is a multiple of $$$30$$$ and $$$60 - 30 \leq 35$$$.</p></div>
