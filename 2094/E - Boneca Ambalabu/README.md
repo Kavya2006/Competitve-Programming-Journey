@@ -1,0 +1,22 @@
+<h2><a href="https://codeforces.com/contest/2094/problem/E" target="_blank" rel="noopener noreferrer">2094E — Boneca Ambalabu</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1200 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2094E](https://codeforces.com/contest/2094/problem/E) |
+
+## Topics
+`bitmasks`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">E. Boneca Ambalabu</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>2 seconds</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>256 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>Boneca Ambalabu gives you a sequence of $$$n$$$ integers $$$a_1,a_2,\ldots,a_n$$$.</p><p>Output the maximum value of $$$(a_k\oplus a_1)+(a_k\oplus a_2)+\ldots+(a_k\oplus a_n)$$$ among all $$$1 \leq k \leq n$$$. Note that $$$\oplus$$$ denotes the <a href="https://en.wikipedia.org/wiki/Bitwise_operation#XOR">bitwise XOR operation</a>.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 10^4$$$) – the number of independent test cases.</p><p>The first line of each test case contains an integer $$$n$$$ ($$$1 \leq n\leq 2\cdot 10^5$$$) – the length of the array.</p><p>The second line of each test case contains $$$n$$$ integers $$$a_1,a_2,\ldots,a_n$$$ ($$$0 \leq a_i  \lt  2^{30}$$$).</p><p>It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$2\cdot 10^5$$$.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>For each test case, output the maximum value on a new line.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Example</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id009389816607015908" id="id009681007599244084" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id009389816607015908"><div class="test-example-line test-example-line-even test-example-line-0" bis_skin_checked="1">5</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">3</div><div class="test-example-line test-example-line-odd test-example-line-1" bis_skin_checked="1">18 18 18</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">5</div><div class="test-example-line test-example-line-even test-example-line-2" bis_skin_checked="1">1 2 4 8 16</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">5</div><div class="test-example-line test-example-line-odd test-example-line-3" bis_skin_checked="1">8 13 4 5 15</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">6</div><div class="test-example-line test-example-line-even test-example-line-4" bis_skin_checked="1">625 676 729 784 841 900</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">1</div><div class="test-example-line test-example-line-odd test-example-line-5" bis_skin_checked="1">1</div></pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id001438730411587722" id="id006390679229164793" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id001438730411587722">0
+79
+37
+1555
+0
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In the first test case, the best we can do is $$$(18\oplus18)+(18\oplus18)+(18\oplus18)=0$$$.</p><p>In the second test case, we choose $$$k=5$$$ to get $$$(16\oplus1)+(16\oplus2)+(16\oplus4)+(16\oplus8)+(16\oplus16)=79$$$.</p></div>
