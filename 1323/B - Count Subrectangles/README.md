@@ -1,0 +1,25 @@
+<h2><a href="https://codeforces.com/contest/1323/problem/B" target="_blank" rel="noopener noreferrer">1323B — Count Subrectangles</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 1500 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 1323B](https://codeforces.com/contest/1323/problem/B) |
+
+## Topics
+`binary search` `greedy` `implementation`
+
+---
+
+## Problem Statement
+
+<div class="header" bis_skin_checked="1"><div class="title" bis_skin_checked="1">B. Count Subrectangles</div><div class="time-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">time limit per test</div>1 second</div><div class="memory-limit" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">memory limit per test</div>512 megabytes</div><div class="input-file input-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">input</div>standard input</div><div class="output-file output-standard" bis_skin_checked="1"><div class="property-title" bis_skin_checked="1">output</div>standard output</div></div><div bis_skin_checked="1"><p>You are given an array $$$a$$$ of length $$$n$$$ and array $$$b$$$ of length $$$m$$$ both consisting of only integers $$$0$$$ and $$$1$$$. Consider a matrix $$$c$$$ of size $$$n \times m$$$ formed by following rule: $$$c_{i, j} = a_i \cdot b_j$$$ (i.e. $$$a_i$$$ multiplied by $$$b_j$$$). It's easy to see that $$$c$$$ consists of only zeroes and ones too.</p><p>How many <span class="tex-font-style-it">subrectangles</span> of size (area) $$$k$$$ consisting only of ones are there in $$$c$$$?</p><p>A <span class="tex-font-style-it">subrectangle</span> is an intersection of a consecutive (subsequent) segment of rows and a consecutive (subsequent) segment of columns. I.e. consider four integers $$$x_1, x_2, y_1, y_2$$$ ($$$1 \le x_1 \le x_2 \le n$$$, $$$1 \le y_1 \le y_2 \le m$$$) a subrectangle $$$c[x_1 \dots x_2][y_1 \dots y_2]$$$ is an intersection of the rows $$$x_1, x_1+1, x_1+2, \dots, x_2$$$ and the columns $$$y_1, y_1+1, y_1+2, \dots, y_2$$$.</p><p>The size (area) of a subrectangle is the total number of cells in it.</p></div><div class="input-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Input</div><p>The first line contains three integers $$$n$$$, $$$m$$$ and $$$k$$$ ($$$1 \leq n, m \leq 40\,000, 1 \leq k \leq n \cdot m$$$), length of array $$$a$$$, length of array $$$b$$$ and required size of subrectangles.</p><p>The second line contains $$$n$$$ integers $$$a_1, a_2, \ldots, a_n$$$ ($$$0 \leq a_i \leq 1$$$), elements of $$$a$$$.</p><p>The third line contains $$$m$$$ integers $$$b_1, b_2, \ldots, b_m$$$ ($$$0 \leq b_i \leq 1$$$), elements of $$$b$$$.</p></div><div class="output-specification" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Output</div><p>Output single integer — the number of subrectangles of $$$c$$$ with size (area) $$$k$$$ consisting only of ones.</p></div><div class="sample-tests" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Examples</div><div class="sample-test" bis_skin_checked="1"><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id006092483249949742" id="id00007538867350008083" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id006092483249949742">3 3 2
+1 0 1
+1 1 1
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id00025189357970794468" id="id001606942213361715" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id00025189357970794468">4
+</pre></div><div class="input" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Input<div title="Copy" data-clipboard-target="#id007892030944321691" id="id009697208563109817" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id007892030944321691">3 5 4
+1 1 1
+1 1 1 1 1
+</pre></div><div class="output" bis_skin_checked="1"><div class="title" bis_skin_checked="1">Output<div title="Copy" data-clipboard-target="#id007284707231520188" id="id00641478665829754" class="input-output-copier" bis_skin_checked="1">Copy</div></div><pre id="id007284707231520188">14
+</pre></div></div></div><div class="note" bis_skin_checked="1"><div class="section-title" bis_skin_checked="1">Note</div><p>In first example matrix $$$c$$$ is:</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/35b2bc45087e60e1115fbd2111b69f6ff53f2173.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>There are $$$4$$$ subrectangles of size $$$2$$$ consisting of only ones in it:</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/cbda98d27be828f909212a98cb5025f01d5af623.png" style="max-width: 100.0%;max-height: 100.0%;"> </center><p>In second example matrix $$$c$$$ is:</p><center> <img class="tex-graphics" src="https://espresso.codeforces.com/a04c6c01a1c02ac4c50895091ce0e09144c3cb81.png" style="max-width: 100.0%;max-height: 100.0%;"> </center></div>
