@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1046 | 36 |
+| 1047 | 37 |
 
 ---
 
@@ -15,14 +15,14 @@
 - [*special](#special) (7)
 - [Uncategorized](#uncategorized) (24)
 - [binary search](#binary-search) (98)
-- [bitmasks](#bitmasks) (61)
+- [bitmasks](#bitmasks) (62)
 - [brute force](#brute-force) (196)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
 - [combinatorics](#combinatorics) (55)
 - [constructive algorithms](#constructive-algorithms) (200)
 - [data structures](#data-structures) (92)
 - [dfs and similar](#dfs-and-similar) (43)
-- [divide and conquer](#divide-and-conquer) (7)
+- [divide and conquer](#divide-and-conquer) (8)
 - [dp](#dp) (139)
 - [dsu](#dsu) (15)
 - [expression parsing](#expression-parsing) (2)
@@ -38,6 +38,7 @@
 - [interactive](#interactive) (8)
 - [math](#math) (461)
 - [matrices](#matrices) (1)
+- [meet-in-the-middle](#meet-in-the-middle) (1)
 - [number theory](#number-theory) (124)
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (4)
@@ -203,6 +204,7 @@
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
 | 484A | [Bits](https://codeforces.com/contest/484/problem/A) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/484/A%20-%20Bits/solution.cpp) |
 | 579A | [Raising Bacteria](https://codeforces.com/contest/579/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/579/A%20-%20Raising%20Bacteria/solution.cpp) |
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 | 1017D | [The Wu](https://codeforces.com/contest/1017/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1017/D%20-%20The%20Wu/solution.cpp) |
 | 1270C | [Make Good](https://codeforces.com/contest/1270/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1270/C%20-%20Make%20Good/solution.cpp) |
 | 1312C | [Adding Powers](https://codeforces.com/contest/1312/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1312/C%20-%20Adding%20Powers/solution.cpp) |
@@ -883,6 +885,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 817D | [Imbalanced Array](https://codeforces.com/contest/817/problem/D) | 1900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/817/D%20-%20Imbalanced%20Array/solution.cpp) |
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 | 1167B | [Lost Numbers](https://codeforces.com/contest/1167/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1167/B%20-%20Lost%20Numbers/solution.cpp) |
 | 1177B | [Digits Sequence (Hard Edition)](https://codeforces.com/contest/1177/problem/B) | 1800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1177/B%20-%20Digits%20Sequence%20(Hard%20Edition)/solution.cpp) |
 | 1420C2 | [Pokémon Army (hard version)](https://codeforces.com/contest/1420/problem/C2) | 2100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1420/C2%20-%20Pok%C3%A9mon%20Army%20(hard%20version)/solution.cpp) |
@@ -2387,6 +2390,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1648A | [Weird Sum](https://codeforces.com/contest/1648/problem/A) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1648/A%20-%20Weird%20Sum/solution.cpp) |
+
+### meet-in-the-middle
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 888E | [Maximum Subsequence](https://codeforces.com/contest/888/problem/E) | 1800 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/888/E%20-%20Maximum%20Subsequence/solution.cpp) |
 
 ### number theory
 
