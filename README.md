@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1050 | 37 |
+| 1051 | 37 |
 
 ---
 
@@ -14,7 +14,7 @@
 
 - [*special](#special) (7)
 - [Uncategorized](#uncategorized) (24)
-- [binary search](#binary-search) (98)
+- [binary search](#binary-search) (99)
 - [bitmasks](#bitmasks) (62)
 - [brute force](#brute-force) (197)
 - [chinese remainder theorem](#chinese-remainder-theorem) (1)
@@ -32,7 +32,7 @@
 - [geometry](#geometry) (21)
 - [graph matchings](#graph-matchings) (1)
 - [graphs](#graphs) (33)
-- [greedy](#greedy) (423)
+- [greedy](#greedy) (424)
 - [hashing](#hashing) (10)
 - [implementation](#implementation) (281)
 - [interactive](#interactive) (8)
@@ -131,6 +131,7 @@
 | 1486B | [Eastern Exhibition](https://codeforces.com/contest/1486/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1486/B%20-%20Eastern%20Exhibition/solution.cpp) |
 | 1498B | [Box Fitting](https://codeforces.com/contest/1498/problem/B) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1498/B%20-%20Box%20Fitting/solution.cpp) |
 | 1561C | [Deep Down Below](https://codeforces.com/contest/1561/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1561/C%20-%20Deep%20Down%20Below/solution.cpp) |
+| 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
 | 1612C | [Chat Ban](https://codeforces.com/contest/1612/problem/C) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1612/C%20-%20Chat%20Ban/solution.cpp) |
 | 1613C | [Poisoned Dagger](https://codeforces.com/contest/1613/problem/C) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1613/C%20-%20Poisoned%20Dagger/solution.cpp) |
 | 1659C | [Line Empire](https://codeforces.com/contest/1659/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1659/C%20-%20Line%20Empire/solution.cpp) |
@@ -1288,6 +1289,7 @@
 | 1601A | [Array Elimination](https://codeforces.com/contest/1601/problem/A) | 1300 | [C++20 (GCC 13-64)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1601/A%20-%20Array%20Elimination/solution.cpp) |
 | 1606C | [Banknotes](https://codeforces.com/contest/1606/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1606/C%20-%20Banknotes/solution.cpp) |
 | 1610B | [Kalindrome Array](https://codeforces.com/contest/1610/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1610/B%20-%20Kalindrome%20Array/solution.cpp) |
+| 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
 | 1620B | [Triangles on a Rectangle](https://codeforces.com/contest/1620/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1620/B%20-%20Triangles%20on%20a%20Rectangle/solution.cpp) |
 | 1631B | [Fun with Even Subarrays](https://codeforces.com/contest/1631/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1631/B%20-%20Fun%20with%20Even%20Subarrays/solution.cpp) |
 | 1635A | [Min Or Sum](https://codeforces.com/contest/1635/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1635/A%20-%20Min%20Or%20Sum/solution.cpp) |
