@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1058 | 37 |
+| 1059 | 37 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [data structures](#data-structures) (92)
 - [dfs and similar](#dfs-and-similar) (43)
 - [divide and conquer](#divide-and-conquer) (8)
-- [dp](#dp) (146)
+- [dp](#dp) (147)
 - [dsu](#dsu) (15)
 - [expression parsing](#expression-parsing) (2)
 - [fft](#fft) (1)
@@ -34,7 +34,7 @@
 - [graphs](#graphs) (33)
 - [greedy](#greedy) (427)
 - [hashing](#hashing) (10)
-- [implementation](#implementation) (283)
+- [implementation](#implementation) (284)
 - [interactive](#interactive) (8)
 - [math](#math) (464)
 - [matrices](#matrices) (1)
@@ -43,7 +43,7 @@
 - [probabilities](#probabilities) (4)
 - [schedules](#schedules) (4)
 - [shortest paths](#shortest-paths) (12)
-- [sortings](#sortings) (141)
+- [sortings](#sortings) (142)
 - [string suffix structures](#string-suffix-structures) (3)
 - [strings](#strings) (65)
 - [ternary search](#ternary-search) (6)
@@ -917,6 +917,7 @@
 | 363B | [Fence](https://codeforces.com/contest/363/problem/B) | 1100 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/363/B%20-%20Fence/solution.cpp) |
 | 414B | [Mashmokh and ACM](https://codeforces.com/contest/414/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/414/B%20-%20Mashmokh%20and%20ACM/solution.cpp) |
 | 431C | [k-Tree](https://codeforces.com/contest/431/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/431/C%20-%20k-Tree/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 455A | [Boredom](https://codeforces.com/contest/455/problem/A) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/455/A%20-%20Boredom/solution.cpp) |
 | 467C | [George and Job](https://codeforces.com/contest/467/problem/C) | 1700 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/467/C%20-%20George%20and%20Job/solution.cpp) |
 | 476B | [Dreamoon and WiFi](https://codeforces.com/contest/476/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/476/B%20-%20Dreamoon%20and%20WiFi/solution.cpp) |
@@ -1684,6 +1685,7 @@
 | 401C | [Team](https://codeforces.com/contest/401/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/401/C%20-%20Team/solution.cpp) |
 | 420A | [Start Up](https://codeforces.com/contest/420/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/420/A%20-%20Start%20Up/solution.cpp) |
 | 431C | [k-Tree](https://codeforces.com/contest/431/problem/C) | 1600 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/431/C%20-%20k-Tree/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 435A | [Queue on Bus Stop](https://codeforces.com/contest/435/problem/A) | 1000 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/435/A%20-%20Queue%20on%20Bus%20Stop/solution.cpp) |
 | 451A | [Game With Sticks](https://codeforces.com/contest/451/problem/A) | 900 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/451/A%20-%20Game%20With%20Sticks/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
@@ -2596,6 +2598,7 @@
 | 16B | [Burglar and Matches](https://codeforces.com/contest/16/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/16/B%20-%20Burglar%20and%20Matches/solution.cpp) |
 | 272D | [Dima and Two Sequences](https://codeforces.com/contest/272/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/272/D%20-%20Dima%20and%20Two%20Sequences/solution.cpp) |
 | 276C | [Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/276/C%20-%20Little%20Girl%20and%20Maximum%20Sum/solution.cpp) |
+| 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 437C | [The Child and Toy](https://codeforces.com/contest/437/problem/C) | 1400 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/437/C%20-%20The%20Child%20and%20Toy/solution.cpp) |
 | 459B | [Pashmak and Flowers](https://codeforces.com/contest/459/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/459/B%20-%20Pashmak%20and%20Flowers/solution.cpp) |
 | 489B | [BerSU Ball](https://codeforces.com/contest/489/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/489/B%20-%20BerSU%20Ball/solution.cpp) |
