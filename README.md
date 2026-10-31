@@ -6,14 +6,14 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1053 | 37 |
+| 1054 | 37 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [*special](#special) (7)
-- [Uncategorized](#uncategorized) (24)
+- [Uncategorized](#uncategorized) (25)
 - [binary search](#binary-search) (99)
 - [bitmasks](#bitmasks) (62)
 - [brute force](#brute-force) (198)
@@ -73,6 +73,7 @@
 | 1077C | [Good Array](https://codeforces.com/contest/1077/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1077/C%20-%20Good%20Array/solution.cpp) |
 | 1782A | [Parallel Projection](https://codeforces.com/contest/1782/problem/A) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1782/A%20-%20Parallel%20Projection/solution.cpp) |
 | 1828C | [Counting Orders](https://codeforces.com/contest/1828/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/1828/C%20-%20Counting%20Orders/solution.cpp) |
+| 2136C | [Against the Difference](https://codeforces.com/contest/2136/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2136/C%20-%20Against%20the%20Difference/solution.cpp) |
 | 2166C | [Cyclic Merging](https://codeforces.com/contest/2166/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2166/C%20-%20Cyclic%20Merging/solution.cpp) |
 | 2188C | [Restricted Sorting](https://codeforces.com/contest/2188/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2188/C%20-%20Restricted%20Sorting/solution.cpp) |
 | 2197C | [Game with a Fraction](https://codeforces.com/contest/2197/problem/C) | Unrated | [C++17 (GCC 7-32)](https://github.com/Kavya2006/Competitve-Programming-Journey/blob/HEAD/2197/C%20-%20Game%20with%20a%20Fraction/solution.cpp) |
